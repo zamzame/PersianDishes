@@ -4,7 +4,8 @@
             "description": "A classic Persian dish made with fresh herbs, tender beef, kidney beans, and dried limes, known for its rich, tangy, and aromatic flavor.",
             "type": "stew",
             "serving": "4 people",
-            "photo": "images/ghormeh_sabzi.png",
+            "photo": "images/gorme-shabzi.png",
+            "alt": "A bowl of Ghormeh Sabzi, a traditional Persian herb stew with beef and kidney beans",
             "ingredients": [
                 {
                     "name":"Beef (cubed)",
@@ -47,7 +48,7 @@
             ],
             "preparationTime": "20 minutes",
             "cookingTime": "2.5 hours",
-            "time": "2-2.5 hours",
+            "time": "2.5-3 hours",
             "region": "Iran"
         },
         {
@@ -56,6 +57,7 @@
             "type": "stew",
             "serving": "4 people",
             "photo": "images/gheimeh.png",
+            "alt": "A bowl of Gheymeh, a traditional Persian stew with beef, yellow split peas, and dried limes",
             "ingredients": [
                 {
                     "name": "Beef (cubed)",
@@ -110,6 +112,7 @@
             "type": "stew",
             "serving": "4 people",
             "photo": "images/alu-esfenaj.png",
+            "alt": "A bowl of Khoresh-e Esfenaj va Alu, a traditional Persian stew with spinach and prunes",
             "ingredients": [
                 {
                     "name": "Chiken",
@@ -168,6 +171,7 @@
             "type": "rice",
             "serving": "4 people",
             "photo": "images/chelow.png",
+            "alt": "A dish of Chelow, traditional Persian steamed rice with tahdig",
             "ingredients": [
                 {
                     "name": "Persian rice",
@@ -216,6 +220,7 @@
             "type": "kebab",
             "serving": "4 people",
             "photo": "images/kabab_tabei.png",
+            "alt": "A plate of Kebab Tabei, a Persian-style pan-cooked minced meat kebab",
             "ingredients": [
                 {
                     "name": "Minced meat",
@@ -268,6 +273,7 @@
             "type": "rice",
             "serving": "4 people",
             "photo": "images/tahchin.png",
+            "alt": "A slice of Tahchin, a Persian baked rice dish with a crispy golden crust and layers of chicken and saffron rice",
             "ingredients": [
                 {
                     "name": "Persian rice",
@@ -314,7 +320,7 @@
                 {"9": "Serve tahchin with your choice of stew or grilled meat."}
             ],
             "preparationTime": "25 minutes",
-            "cookingTime": "60 75 minutes",
+            "cookingTime": "60-75 minutes",
             "time": "1.5-1.40 hours",
             "region": "Iran"
         },
@@ -324,6 +330,7 @@
             "type": "Kookoo",
             "serving": "4 people",
             "photo": "images/kotlet.png",
+            "alt": "A plate of Kotlet, crispy fried patties made from minced meat and potatoes",
             "ingredients": [
                 {
                     "name": "Minced meat",
@@ -374,9 +381,10 @@
         {
             "name": "Kookoo Sabzi",
             "description": "A traditional Persian herb-based omelet made with fresh herbs and eggs, often served cold or warm as a light meal or appetizer.",
-            "type": "Kookoo",
+            "type": "omelet",
             "serving": "4 people",
             "photo": "images/kookoo_sabzi.png",
+            "alt": "A plate of Kookoo Sabzi, a traditional Persian herb-based omelet",
             "ingredients": [
                 {
                     "name": "Fresh herbs (parsley, cilantro, dill)",
@@ -423,9 +431,10 @@
         {
             "name": "Kookoo Sibzamini",
             "description": "A popular Persian dish made with mashed potatoes, eggs, and spices, pan-fried until crispy on the outside and soft inside.",
-            "type": "Kookoo",
+            "type": "omelet",
             "serving": "6 people",
             "photo": "images/kookoo_sibzamini.png",
+            "alt": "A plate of Kookoo Sibzamini, a Persian potato omelet with a crispy golden crust",
             "ingredients": [
                 {
                     "name": "Potatoes (boiled and mashed)",
@@ -476,9 +485,10 @@
         {
             "name": "Joojeh Kabab",
             "description": "A popular Persian dish made with marinated chicken, grilled to juicy perfection with a tangy saffron flavor.",
-            "type": "Kabab",
+            "type": "kebab",
             "serving": "5",
             "photo": "images/joojeh_kabab.png",
+            "alt": "A plate of Joojeh Kabab, Persian grilled chicken skewers with a golden saffron marinade",
             "ingredients": [
                 {
                     "name": "Chicken (cut into pieces)",
@@ -527,6 +537,7 @@
             "type": "kebab",
             "serving": "4 people",
             "photo": "images/chelow_kebab.png",
+            "alt": "A plate of Chelow Kebab, Persian grilled meat kebabs served with saffron rice and grilled tomatoes",
             "ingredients": [
                 {
                     "name": "Minced meat or chicken (for kebab)",
@@ -578,6 +589,7 @@
             "type": "soup",
             "serving": "4 people",
             "photo": "images/ash_reshteh.png",
+            "alt": "A bowl of Ash Reshteh, a traditional Persian soup with herbs, beans, and noodles",
             "ingredients": [
                 {
                     "name": "chickpeas (cooked) ",
@@ -627,8 +639,8 @@
                 {"4": "Serve the shishlik with chelow (steamed rice) or flatbread, along with grilled vegetables and fresh herbs."}
             ],
             "preparationTime": "15 minutes (plus marinating time)",
-            "cookingTime": "10-15 minutes",
-            "time": "25-30 minutes",
+            "cookingTime": "30-45 minutes",
+            "time": "45-60 minutes",
             "region": "Iran"
         }
     ]
