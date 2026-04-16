@@ -56,7 +56,7 @@
             "description": "A hearty Persian stew made with tender beef, yellow split peas, dried limes, and a tomato-based sauce, often garnished with crispy fried potatoes.",
             "type": "stew",
             "serving": "4 people",
-            "photo": "images/gheimeh.png",
+            "photo": "images/geymeh.png",
             "alt": "A bowl of Gheymeh, a traditional Persian stew with beef, yellow split peas, and dried limes",
             "ingredients": [
                 {
