@@ -1,14 +1,52 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: beige;
+    color: rgb(104, 68, 3);
 }
 header {
     width:100%;
     background-color: white;
-    /* border: 4px solid orange; */
     border-bottom: 2px solid orange;
 }
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid orange;
+}
+
+.footer-top {
+    display: flex;
+    width:100%;
+}
+
+.footer-top .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin : 0.5% 0.5% 0.5% 20%;    
+    flex-wrap: wrap;
+}
+
+.footer-top .right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin : 0.5% 0.5% 0.5% 10%;    
+    flex-wrap: wrap;
+}
+/* .footer-bottom {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    border-bottom: 2px solid orange;
+} */
+
 h1 {
     font-size: 1.5rem;
     margin: 0;
@@ -16,14 +54,18 @@ h1 {
 
 nav {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center; 
     padding: 10px 20px;
 }
 .left {
     display:flex;
     align-items: center;
+    /* justify-content: baseline; */
     gap: 10px;
+}
+.left h1{
+    color: grey;
 }
 .chef-logo {
     width: 50px;
@@ -33,10 +75,212 @@ nav {
     display: flex;
     list-style: none;
     gap: 20px;
+}
+
+.home {
+    text-decoration: none;
+    outline-style: none;
+    /* background-color: rgb(202, 193, 176); */
+    color: rgb(104, 68, 3);
+    /* padding: 0.5rem;
+    border-radius: 10px; */
+    /* font-weight: bold; */
+    font-size: 1rem;
+}
+.contact {
+    text-decoration: none;
+    outline-style: none;
+    background-color: rgb(202, 193, 176);
+    color: rgb(104, 68, 3);
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* font-weight: bold; */
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;            
+}
+
+.galleryTitle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galTitle{
+    align-items: center;
+    color: grey;
+    font-weight: bold;
+    font-size: 2rem;  
+    min-width: 3rem;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%;
+    max-width: 200rem;             */
+    width: 400px;
+}
+
+#inputSearch{
+    display:flex;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 1.2rem; 
+    border-radius: 20px;
+}
+
+.not-found-message {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    width: 100%;
+    max-width: 30rem;   
+    font-style: italic;
+}  
+.dishLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+.dishes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1300px;
+    flex-wrap: wrap;       
+}
+
+/* Dish Card Info */
+.dishCard {
+    display: flex;    
+    flex-direction: column;
+    justify-items: flex-start;
+    width: 100%;
+    max-width: 355px;   
+    max-height: 420px;         
+    padding: 0.1rem;
+    border: 0.5px solid rgb(236, 224, 203);
+    background-color: rgb(252, 250, 248);
+    color: rgb(133, 90, 12);
+    border-radius: 20px;
+    transition: transform 0.3s;
+    flex-wrap: wrap;
+}
+
+.dishCard:hover {
+    transform: scale(1.05);
+    border: 1px solid rgb(133, 90, 12);
+    box-shadow: 2px 2px 10px rgb(133, 90, 12);
+}
+.dishImg {
+    justify-content: stretch;
+    border-radius: 15px 15px 0 0;
     margin: 0;
-    padding: 0;    
-    /* display:flex;
-    list-style: none; */
-    /* align-items: baseline; */
-    /* gap: 20px; */
+    padding: 0px;
+    width: 100%;
+    height: 45%;    
+}
+
+.dishImg img {
+    width: 100%;
+    height: 100%;    
+    border-radius: inherit;
+    object-fit: cover;
+    display: block;        
+}
+ 
+.dishDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+.dishTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3 {
+    color: rgb(133, 90, 12);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    font-weight: bold;
+}         
+.dishType {
+    background-color: rgb(247, 209, 140);
+    color: rgb(104, 68, 3);
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    width: fit-content;
+}
+
+.desc {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgb(104, 68, 3);
+}        
+
+.badge {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(104, 68, 3);
+    font-size: 11px;
+    gap: 20px;
+    width: fit-content;
+}        
+
+.myDishRecipe{
+    display: flex;
+    align-items: normal;    
+    justify-content: space-evenly;
+    /* margin-left: 23%; */
+    margin-top:0;
+    gap: 40px;
+    /* overflow:hidden; */
+}
+
+.myDishImg {
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+    padding: 0px;
+    /* width: 50%;
+    height: 50%;     */
+}
+
+.myDishImg img {
+    width: 400px;
+    height: 400px;    
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(117, 117, 116);    
+    object-fit: cover;
+    display: block;        
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    gap: 20px;
+        
+    /* overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;     */
 }

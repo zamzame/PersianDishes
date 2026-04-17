@@ -2,9 +2,10 @@
         {
             "name": "Ghormeh Sabzi",
             "description": "A classic Persian dish made with fresh herbs, tender beef, kidney beans, and dried limes, known for its rich, tangy, and aromatic flavor.",
-            "type": "stew",
-            "serving": "4 people",
-            "photo": "images/ghormeh_sabzi.png",
+            "type": "Stew",
+            "serving": "4 servings",
+            "photo": "images/gorme-shabzi.png",
+            "alt": "A bowl of Ghormeh Sabzi, a traditional Persian herb stew with beef and kidney beans",
             "ingredients": [
                 {
                     "name":"Beef (cubed)",
@@ -45,16 +46,116 @@
                 {"6" : "Add the cooked kidney beans and continue to simmer for another 30 minutes."},
                 {"7" : "Season with salt and pepper to taste before serving."}
             ],
-            "preparationTime": "20 minutes",
-            "cookingTime": "2.5 hours",
+            "preparationTime": "20 min",
+            "cookingTime": "2 hours",            
+            "time": "2.5 hours",
+            "region": "Iran"
+        },
+        {
+            "name": "Chelow (Persian Steamed Rice)",
+            "description": "ََA fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
+            "type": "Rice",
+            "serving": "4 servings",
+            "photo": "images/chelow.png",
+            "alt": "A dish of Chelow, traditional Persian steamed rice with tahdig",
+            "ingredients": [
+                {
+                    "name": "Persian rice",
+                    "quantity": "3 cups"
+                },
+                {
+                    "name": "Water",
+                    "quantity": "6 cups"
+                },
+                {
+                    "name": "Salt",
+                    "quantity": "2 tbsp"
+                },
+                {
+                    "name": "Oil or Butter",
+                    "quantity": "3 tbsp"
+                },
+                {
+                    "name": "Saffron (optional)",
+                    "quantity": "a pinch"
+                },
+                {
+                    "name": "potato or flatbread (for tahdig)",
+                    "quantity": "1"
+                }
+            ],
+            "instructions": [
+                {"1": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
+                {"2": "Soak the rice in salted water for at least 30 minutes, then drain."},
+                {"3": "Bring a large pot of water to a boil, add salt, and cook the rice for about 5-7 minutes until it's partially cooked (al dente)."},
+                {"4": "Drain the rice and rinse with cold water to stop the cooking process."},
+                {"5": "In a non-stick pot, heat oil or butter over medium heat. Add a layer of parboiled rice, then add a layer of potato slices or flatbread for tahdig."},
+                {"6": "Continue layering the remaining rice on top."},
+                {"7": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
+                {"8": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the tahdig is crispy and golden."},
+                {"9": "Serve the chelow with your choice of stew or grilled meat."}
+            ],
+            "preparationTime": "10 min",
+            "cookingTime": "45 hours",            
+            "time": "55 min",
+            "region": "Iran"
+        },
+        {
+            "name": "Joojeh Kabab",
+            "description": "A popular Persian dish made with marinated chicken, grilled to juicy perfection with a tangy saffron flavor.",
+            "type": "Kebab",
+            "serving": "5",
+            "photo": "images/joojeh_kabab.png",
+            "alt": "A plate of Joojeh Kabab, Persian grilled chicken skewers with a golden saffron marinade",
+            "ingredients": [
+                {
+                    "name": "Chicken (cut into pieces)",
+                    "quantity": "800g"
+                },
+                {
+                    "name": "Plain yogurt",
+                    "quantity": "1 cup"
+                },
+                {
+                    "name": "Lemon juice",
+                    "quantity": "2 tbsp"
+                },
+                {
+                    "name": "Saffron (dissolved in hot water)",
+                    "quantity": "a pinch"
+                },
+                {
+                    "name": "Garlic (minced)",
+                    "quantity": "2 cloves"
+                },
+                {
+                    "name": "Onion (grated)",
+                    "quantity": "1 medium"
+                },
+                {
+                    "name": "Salt and Pepper",
+                    "quantity": "to taste"
+                }
+            ],
+            "instructions": [
+                {"1": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
+                {"2": "Add the chicken pieces to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
+                {"3": "Preheat the grill to medium-high heat. Thread the marinated chicken pieces onto skewers."},
+                {"4": "Grill the chicken skewers for about 10-15 minutes, turning occasionally, until the chicken is cooked through and has a nice char."},
+                {"5": "Serve the joojeh kabab with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
+            ],
+            "preparationTime": "15 min",
+            "cookingTime": "25 min",
+            "time": "40 min",
             "region": "Iran"
         },
         {
             "name": "Gheymeh",
             "description": "A hearty Persian stew made with tender beef, yellow split peas, dried limes, and a tomato-based sauce, often garnished with crispy fried potatoes.",
-            "type": "stew",
-            "serving": "4 people",
-            "photo": "images/gheimeh.png",
+            "type": "Stew",
+            "serving": "4 servings",
+            "photo": "images/geymeh.png",
+            "alt": "A bowl of Gheymeh, a traditional Persian stew with beef, yellow split peas, and dried limes",
             "ingredients": [
                 {
                     "name": "Beef (cubed)",
@@ -98,17 +199,18 @@
                             {"6": "Add the cooked yellow split peas and continue to simmer for another 30 minutes."},
                             {"7": "Season with salt and pepper to taste before serving. Garnish with crispy fried potatoes on top."}
             ],
-            "preparationTime": "20 minutes",
-            "cookingTime": "1.5 hours",
-            "time": "2-2.5 hours",
+            "preparationTime": "20 min",
+            "cookingTime": "1.5 hours",            
+            "time": "2 hours",
             "region": "Iran"
         },
         {
             "name": "Khoresh-e Esfenaj va Alu",
             "description": "A traditional Persian stew made with spinach, tender meat, and sweet-sour prunes, creating a rich and comforting flavor.",
-            "type": "stew",
-            "serving": "4 people",
+            "type": "Stew",
+            "serving": "4 servings",
             "photo": "images/alu-esfenaj.png",
+            "alt": "A bowl of Khoresh-e Esfenaj va Alu, a traditional Persian stew with spinach and prunes",
             "ingredients": [
                 {
                     "name": "Chiken",
@@ -156,65 +258,18 @@
                 {"6": "Season with salt and pepper to taste before serving."},
                 {"7": "Add lemon juice (optional) for a slightly tangy flavor."}
             ],
-            "preparationTime": "20 minutes",
-            "cookingTime": "1.5 2 hour",
-            "time": "1.5-2 hours",
+            "preparationTime": "10 mi",
+            "cookingTime": "1.20 hours",            
+            "time": "1.5 hours",
             "region": "Iran"
         }, 
         {
-            "name": "Chelow (Persian Steamed Rice)",
-            "description": "ََA fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
-            "type": "rice",
-            "serving": "4 people",
-            "photo": "images/chelow.png",
-            "ingredients": [
-                {
-                    "name": "Persian rice",
-                    "quantity": "3 cups"
-                },
-                {
-                    "name": "Water",
-                    "quantity": "6 cups"
-                },
-                {
-                    "name": "Salt",
-                    "quantity": "2 tbsp"
-                },
-                {
-                    "name": "Oil or Butter",
-                    "quantity": "3 tbsp"
-                },
-                {
-                    "name": "Saffron (optional)",
-                    "quantity": "a pinch"
-                },
-                {
-                    "name": "potato or flatbread (for tahdig)",
-                    "quantity": "1"
-                }
-            ],
-            "instructions": [
-                {"1": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
-                {"2": "Soak the rice in salted water for at least 30 minutes, then drain."},
-                {"3": "Bring a large pot of water to a boil, add salt, and cook the rice for about 5-7 minutes until it's partially cooked (al dente)."},
-                {"4": "Drain the rice and rinse with cold water to stop the cooking process."},
-                {"5": "In a non-stick pot, heat oil or butter over medium heat. Add a layer of parboiled rice, then add a layer of potato slices or flatbread for tahdig."},
-                {"6": "Continue layering the remaining rice on top."},
-                {"7": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
-                {"8": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the tahdig is crispy and golden."},
-                {"9": "Serve the chelow with your choice of stew or grilled meat."}
-            ],
-            "preparationTime": "10 minutes",
-            "cookingTime": "45 60 minutes",
-            "time": "55-70 minutes",
-            "region": "Iran"
-        },
-        {
             "name": "Kebab Tabei",
             "description": "A simple and juicy Persian-style minced meat kebab cooked in a pan instead of a grill, making it an easy homemade version of traditional kebab.",
-            "type": "kebab",
-            "serving": "4 people",
+            "type": "Kebab",
+            "serving": "4 servings",
             "photo": "images/kabab_tabei.png",
+            "alt": "A plate of Kebab Tabei, a Persian-style pan-cooked minced meat kebab",
             "ingredients": [
                 {
                     "name": "Minced meat",
@@ -256,17 +311,18 @@
                 {"3": "Heat a non-stick skillet or frying pan over medium heat. Place the patties in the pan and cook for about 4-5 minutes on each side, or until they are cooked through and have a nice browned crust."},
                 {"4": "Serve the kabab tabei with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
             ],
-            "preparationTime": "15 20 minutes",
-            "cookingTime": "25 30 minutes",
-            "time": "40-45 minutes",
+            "preparationTime": "15 mi",
+            "cookingTime": "30 min",            
+            "time": "45 min",
             "region": "Iran"
         },
         {
             "name": "Tahchin",
             "description": "َA famous Persian baked rice dish made with yogurt, eggs, saffron, and layered chicken or meat, known for its crispy golden crust and rich aroma.",
-            "type": "rice",
-            "serving": "4 people",
+            "type": "Rice",
+            "serving": "4 servings",
             "photo": "images/tahchin.png",
+            "alt": "A slice of Tahchin, a Persian baked rice dish with a crispy golden crust and layers of chicken and saffron rice",
             "ingredients": [
                 {
                     "name": "Persian rice",
@@ -312,17 +368,18 @@
                 {"8": "Alternatively, you can bake it in a preheated oven at 350°F (175°C) for about 45-60 minutes until fully cooked and golden brown."},
                 {"9": "Serve tahchin with your choice of stew or grilled meat."}
             ],
-            "preparationTime": "25 minutes",
-            "cookingTime": "60 75 minutes",
-            "time": "1.5-1.40 hours",
+            "preparationTime": "20 min",
+            "cookingTime": "75 min",            
+            "time": "1.5 hours",
             "region": "Iran"
         },
         {
             "name": "Kotlet",
             "description": "A crispy, golden fried patties made from minced meat, potatoes, and spices, commonly served as a quick and delicious Persian street-style meal.",
-            "type": "Kookoo",
-            "serving": "4 people",
+            "type": "Omelet",
+            "serving": "4 servings",
             "photo": "images/kotlet.png",
+            "alt": "A plate of Kotlet, crispy fried patties made from minced meat and potatoes",
             "ingredients": [
                 {
                     "name": "Minced meat",
@@ -365,17 +422,18 @@
                 {"5": "Drain the fried kotlet on paper towels to remove excess oil."},
                 {"6": "Serve hot with bread, fresh herbs, or a side of yogurt."}
             ],
-            "preparationTime": "25 minutes",
-            "cookingTime": "20-25 minutes",
-            "time": "45-50 minutes",
+            "preparationTime": "20 min",
+            "cookingTime": "25 min",            
+            "time": "45 min",
             "region": "Iran"
         },
         {
             "name": "Kookoo Sabzi",
             "description": "A traditional Persian herb-based omelet made with fresh herbs and eggs, often served cold or warm as a light meal or appetizer.",
-            "type": "Kookoo",
-            "serving": "4 people",
+            "type": "Omelet",
+            "serving": "4 servings",
             "photo": "images/kookoo_sabzi.png",
+            "alt": "A plate of Kookoo Sabzi, a traditional Persian herb-based omelet",
             "ingredients": [
                 {
                     "name": "Fresh herbs (parsley, cilantro, dill)",
@@ -414,17 +472,18 @@
                 {"5": "Carefully flip the kookoo using a large plate or lid to help turn it over. Cook the other side until golden brown and fully set, about another 5-7 minutes."},
                 {"6": "Serve warm or at room temperature with bread or yogurt on the side."}
             ],
-            "preparationTime": "15 minutes",
-            "cookingTime": "15-20 minutes",
-            "time": "30-35 minutes",
+            "preparationTime": "15 min",
+            "cookingTime": "15 min",            
+            "time": "30 min",
             "region": "Iran"
         },
         {
             "name": "Kookoo Sibzamini",
             "description": "A popular Persian dish made with mashed potatoes, eggs, and spices, pan-fried until crispy on the outside and soft inside.",
-            "type": "Kookoo",
-            "serving": "6 people",
+            "type": "Omelet",
+            "serving": "6 servings",
             "photo": "images/kookoo_sibzamini.png",
+            "alt": "A plate of Kookoo Sibzamini, a Persian potato omelet with a crispy golden crust",
             "ingredients": [
                 {
                     "name": "Potatoes (boiled and mashed)",
@@ -467,65 +526,18 @@
                 {"5": "Carefully flip the kookoo using a large plate or lid to help turn it over. Cook the other side until golden brown and fully set, about another 5-7 minutes."},
                 {"6": "Serve warm or at room temperature with bread or yogurt on the side."}
             ],
-            "preparationTime": "15 minutes",
-            "cookingTime": "15-20 minutes",
-            "time": "30-35 minutes",
-            "region": "Iran"
-        },
-        {
-            "name": "Joojeh Kabab",
-            "description": "A popular Persian dish made with marinated chicken, grilled to juicy perfection with a tangy saffron flavor.",
-            "type": "Kabab",
-            "serving": "5",
-            "photo": "images/joojeh_kabab.png",
-            "ingredients": [
-                {
-                    "name": "Chicken (cut into pieces)",
-                    "quantity": "800g"
-                },
-                {
-                    "name": "Plain yogurt",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "Lemon juice",
-                    "quantity": "2 tbsp"
-                },
-                {
-                    "name": "Saffron (dissolved in hot water)",
-                    "quantity": "a pinch"
-                },
-                {
-                    "name": "Garlic (minced)",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "Onion (grated)",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                }
-            ],
-            "instructions": [
-                {"1": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
-                {"2": "Add the chicken pieces to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
-                {"3": "Preheat the grill to medium-high heat. Thread the marinated chicken pieces onto skewers."},
-                {"4": "Grill the chicken skewers for about 10-15 minutes, turning occasionally, until the chicken is cooked through and has a nice char."},
-                {"5": "Serve the joojeh kabab with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
-            ],
-            "preparationTime": "15 minutes (plus marinating time)",
-            "cookingTime": "20-25 minutes",
-            "time": "35-40 minutes",
+            "preparationTime": "15 min",
+            "cookingTime": "15 min",
+            "time": "30 min",
             "region": "Iran"
         },
         {
             "name": "Chelow Kebab",
             "description": "One of the most famous Persian dishes, consisting of fragrant saffron rice served with juicy grilled meat kebabs, often accompanied by grilled tomatoes.",
-            "type": "kebab",
-            "serving": "4 people",
+            "type": "Kebab",
+            "serving": "4 servings",
             "photo": "images/chelow_kebab.png",
+            "alt": "A plate of Chelow Kebab, Persian grilled meat kebabs served with saffron rice and grilled tomatoes",
             "ingredients": [
                 {
                     "name": "Minced meat or chicken (for kebab)",
@@ -566,17 +578,18 @@
                 {"7": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam. Cook on low heat for about 30-40 minutes until the rice is fully cooked and has a crispy golden crust (tahdig)."},
                 {"8": "Serve the chelow with the grilled kebabs, along with grilled tomatoes and fresh herbs."}
             ],
-            "preparationTime": "30 minutes (plus marinating time)",
-            "cookingTime": "",
-            "time": "1.5-2 hours",
+            "preparationTime": "30 min",
+            "cookingTime": "1.5 hours",            
+            "time": "2 hours",
             "region": "Iran"
         },
         {
             "name": "Ash Reshteh",
             "description": "A hearty Persian soup made with herbs, beans, noodles, and topped with fried onions, garlic, and mint",
-            "type": "soup",
-            "serving": "4 people",
+            "type": "Soup",
+            "serving": "4 servings",
             "photo": "images/ash_reshteh.png",
+            "alt": "A bowl of Ash Reshteh, a traditional Persian soup with herbs, beans, and noodles",
             "ingredients": [
                 {
                     "name": "chickpeas (cooked) ",
@@ -625,9 +638,9 @@
                 {"3": "Preheat the grill to medium-high heat. Grill the lamb chops for about 4-5 minutes on each side for medium-rare, or longer if you prefer them more well-done."},
                 {"4": "Serve the shishlik with chelow (steamed rice) or flatbread, along with grilled vegetables and fresh herbs."}
             ],
-            "preparationTime": "15 minutes (plus marinating time)",
-            "cookingTime": "10-15 minutes",
-            "time": "25-30 minutes",
+            "preparationTime": "15 min",
+            "cookingTime": "30 min",            
+            "time": "45 min",
             "region": "Iran"
         }
     ]
