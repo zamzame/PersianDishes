@@ -1,6 +1,6 @@
 # PersianDishes
-# This web application is useful for people who love Persian dishes and want a simple way to cook and enjoy them.
-# It provides recipes for popular Persian dishes.
+This web application is useful for people who love Persian dishes and want a simple way to cook and enjoy them.
+It provides recipes for popular Persian dishes.
 
                                              🔷 Steps (Issues) 🔷   
 🔶 Setup Initial
@@ -13,7 +13,12 @@
 
 🔶 Setup Code
     🔹file structures
-    🔹link html and css files to js  
+    🔹link html and css files to js 
+     🐞While deploying this step commits on GitHub, I encountered an Issue.
+        It built successfully, but for the deloped link, it said that there is submodule under the current repo.
+        I resolved the submodule repo by updating the files from local. Deplyment done, but refered to 404.
+        the reason was in loading code for the extra "/". I changed it to
+        loadHTML("header", "/components/header.html");' to 'loadHTML("header", "components/header.html");
 
 🔶 Create Main Page
     🔹Header: Name, Current time, Current Location, Navigation bar (Home, Contact Us)
