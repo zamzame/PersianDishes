@@ -1,4 +1,5 @@
 # PersianDishes
+
 This web application is useful for people who love Persian dishes and want a simple way to cook and enjoy them.
 It provides recipes for popular Persian dishes.
 
@@ -56,4 +57,8 @@ It provides recipes for popular Persian dishes.
     🔹Connect commits with GitHub Issues
 
                                             🔷 Challenges and Solutions 🔷 
+
+🐞 Make a card clickable                => using click event and encodeURIComponent                              
+🐞 Pass a parameter to the next page 
+🐞 
 

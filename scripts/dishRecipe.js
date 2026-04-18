@@ -1,31 +1,55 @@
 import { loadHTML } from "./load.js";
 
+import { loadLocationAndTime } from "../components/header.js";
+
 loadHTML("header", "../components/header.html");
 loadHTML("footer", "../components/footer.html");
+
+setTimeout(() => {
+  loadLocationAndTime();
+}, 300);
+
+const params = new URLSearchParams(window.location.search);
+const dishName = params.get("name")?.trim().toLowerCase();
+console.log("dishName: ", dishName);
 
 let recipeInfo = [];
 
 fetch("https://zamzame.github.io/PersianDishes/Data/dishes.json")
   .then(res => res.json())
   .then(galleries => {
-    recipeInfo = galleries;
-    displayDishGalleries(galleries);
+
+    // console.log("recipeInfo: ", recipeInfo);
+    const selectedDish = galleries.find(dish=>
+      // console.log("dishName: ", dishName);
+      dish.name.trim().toLowerCase() === dishName
+      // console.log("dish.name.trim().toLowerCase: ", dish.name);
+    );
+    
+    if (selectedDish){
+
+      displayDishGallery(selectedDish)
+    }
+    else{
+      recipePage.innerHTML = 'Recipe Not Found';
+    }
+    console.log("selectedDish", selectedDish);
+    console.log("ingredients", selectedDish.ingredients.name);
   });
 
 const recipePage = document.querySelector(".myDishRecipe");
 
-function displayDishGalleries(galleries) {
-//   recipePage.innerHTML = '';
+function displayDishGallery(recipeInfo) {
+    recipePage.innerHTML = '';
 
-  recipeInfo.forEach((gallery) => {
     const myDishImg = document.createElement("section");
     myDishImg.className = "myDishImg";
     myDishImg.classList.add("myDishImg");
-    myDishRecipe.appendChild(myDishImg);
+    recipePage.appendChild(myDishImg);
 
     const imgSrc = document.createElement("img");
-    imgSrc.src = recipeInfo.photo;
-    imgSrc.alt = recipeInfo.alt;
+    imgSrc.src = "../" + recipeInfo.photo;
+    imgSrc.alt = "../" + recipeInfo.alt;
     imgSrc.loading = "lazy";
     myDishImg.appendChild(imgSrc);
 
@@ -41,7 +65,7 @@ function displayDishGalleries(galleries) {
     const name = document.createElement("h2");
     name.textContent = recipeInfo.name;
     name.className = "recipeTitle";
-    recipe.appendChild(recipeTitle);
+    recipe.appendChild(name);
 
     const recipeDesc = document.createElement("p");
     recipeDesc.textContent = recipeInfo.description;
@@ -52,21 +76,72 @@ function displayDishGalleries(galleries) {
     badge.className = "badge";
     badge.classList.add("badge");
     recipe.appendChild(badge);
+    
+    //prepTime
+    const prepBadge = document.createElement("section");
+    prepBadge.className = "prepBadge";
+    prepBadge.classList.add("prepBadge");
+    badge.appendChild(prepBadge);
+
+    const emojip = document.createElement("span");
+    emojip.textContent = "🕑";
+    emojip.className = "emojip";
+    prepBadge.appendChild(emojip);
+
+    const lblp = document.createElement("span");
+    lblp.textContent = "Prep Time";
+    lblp.className = "lblp";
+    prepBadge.appendChild(lblp);
 
     const prepTimeBadge = document.createElement("span");
-    prepTimeBadge.textContent = "🕑" + recipeInfo.preparationTime;
+    prepTimeBadge.textContent = recipeInfo.preparationTime;
     prepTimeBadge.className = "prepTimeBadge";
-    badge.appendChild(prepTimeBadge);
+    prepBadge.appendChild(prepTimeBadge);
+
+    //cookTime
+    const cookBadge = document.createElement("section");
+    cookBadge.className = "cookBadge";
+    cookBadge.classList.add("cookBadge");
+    badge.appendChild(cookBadge);
+
+    const emojic = document.createElement("span");
+    emojic.textContent = "👩‍🍳";
+    emojic.className = "emojic";
+    cookBadge.appendChild(emojic);
+
+    const lblc = document.createElement("span");
+    lblc.textContent = "Cook Time";
+    lblc.className = "lblc";
+    cookBadge.appendChild(lblc);
 
     const cookTimeBadge = document.createElement("span");
-    cookTimeBadge.textContent = "🕑" + recipeInfo.cookingTime;
+    cookTimeBadge.textContent = recipeInfo.cookingTime;
     cookTimeBadge.className = "cookTimeBadge";
-    badge.appendChild(cookTimeBadge);
+    cookBadge.appendChild(cookTimeBadge);
+
+    //servTime 
+    const servBadge = document.createElement("section");
+    servBadge.className = "servBadge";
+    servBadge.classList.add("servBadge");
+    badge.appendChild(servBadge);
+
+    const emojis = document.createElement("span");
+    emojis.textContent = "👥";
+    emojis.className = "emojis";
+    servBadge.appendChild(emojis);
+
+    const lbls = document.createElement("span");
+    lbls.textContent = "Servings";
+    lbls.className = "lbls";
+    servBadge.appendChild(lbls);
 
     const servingBadge = document.createElement("span");
-    servingBadge.textContent = "👥" + recipeInfo.serving;
+    servingBadge.textContent = recipeInfo.serving;
     servingBadge.className = "servingBadge";
-    badge.appendChild(servingBadge);
+    servBadge.appendChild(servingBadge);
+    
+    //End
+
     
     const ingrdn = document.createElement("section");
     ingrdn.className = "ingrdn";
@@ -84,10 +159,14 @@ function displayDishGalleries(galleries) {
     ingrdnList.classList.add("ingrdnList");
     ingrdn.appendChild(ingrdnList);
 
-    const ingrdnItem= document.createElement("li");
-    ingrdnItem.textContent = recipeInfo.ingredients;
-    ingrdnItem.className = "ingrdnItem";
-    ingrdnList.appendChild(ingrdnItem);
+    console.log("recipeInfo: ", recipeInfo );
+    recipeInfo.ingredients.forEach(element => {
+      const ingrdnItem= document.createElement("li");
+      ingrdnItem.textContent = element.value;
+      ingrdnItem.className = "ingrdnItem";
+      ingrdnList.appendChild(ingrdnItem);      
+    });
+
 
     const instruct = document.createElement("section");
     instruct.className = "instruct";
@@ -105,17 +184,19 @@ function displayDishGalleries(galleries) {
     instructList.classList.add("instructList");
     instruct.appendChild(instructList);
 
-    const instructItem= document.createElement("li");
-    instructItem.textContent = recipeInfo.instructions;
-    instructItem.className = "instructItem";
-    instructList.appendChild(instructItem);
+    recipeInfo.instructions.forEach(element=>{
+      const instructItem= document.createElement("li");
+      instructItem.textContent = element.value;
+      instructItem.className = "instructItem";
+      instructList.appendChild(instructItem);
+    });
 
     const enjoy = document.createElement("h2");
     enjoy.textContent = "Enjoy your meal!";
     enjoy.className = "enjoy";
     recipe.appendChild(enjoy);
 
-    recipe.appendChild(dishCard);
-  });
+    recipePage.appendChild(recipe);
+  
 }
 

@@ -7,44 +7,22 @@
             "photo": "images/gorme-shabzi.png",
             "alt": "A bowl of Ghormeh Sabzi, a traditional Persian herb stew with beef and kidney beans",
             "ingredients": [
-                {
-                    "name":"Beef (cubed)",
-                    "quantity": "400, 500g"
-                },
-
-                {
-                    "name": "Kidney Beans (cooked)",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "Fresh Herbs (parsley, cilantro, fenugreek)",
-                    "quantity": "2 cups (chopped)"
-                },
-                {
-                    "name": "Dried Limes",
-                    "quantity": "2,3"
-                },
-                {
-                    "name": "Onion (chopped)",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "Turmeric",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                }
+                {"value": "400, 500g Beef (cubed)"},
+                {"value": "1 cup Kidney Beans (cooked)"},
+                {"value": "2 cups (chopped) Fresh Herbs (parsley, cilantro, fenugreek)"},
+                {"value": "2,3 Dried Limes"},
+                {"value": "1 medium Onion (chopped)"},
+                {"value": "1 tsp Turmeric"},
+                {"value": "Salt and Pepper to taste"}
             ],
             "instructions": [
-                {"1" : "In a large pot, sauté the chopped onion in a bit of oil until golden."},
-                {"2" : "Add the cubed beef and turmeric, cooking until the meat is browned on all sides."},
-                {"3" : "Add the chopped herbs and sauté for a few minutes until they wilt."},
-                {"4" : "Pour in enough water to cover the ingredients, then add the dried limes."},
-                {"5" : "Bring to a boil, then reduce heat and let it simmer for about 1.5 to 2 hours, or until the meat is tender."},
-                {"6" : "Add the cooked kidney beans and continue to simmer for another 30 minutes."},
-                {"7" : "Season with salt and pepper to taste before serving."}
+                {"value" : "In a large pot, sauté the chopped onion in a bit of oil until golden."},
+                {"value" : "Add the cubed beef and turmeric, cooking until the meat is browned on all sides."},
+                {"value" : "Add the chopped herbs and sauté for a few minutes until they wilt."},
+                {"value" : "Pour in enough water to cover the ingredients, then add the dried limes."},
+                {"value" : "Bring to a boil, then reduce heat and let it simmer for about 1.5 to 2 hours, or until the meat is tender."},
+                {"value" : "Add the cooked kidney beans and continue to simmer for another 30 minutes."},
+                {"value" : "Season with salt and pepper to taste before serving."}
             ],
             "preparationTime": "20 min",
             "cookingTime": "2 hours",            
@@ -52,48 +30,30 @@
             "region": "Iran"
         },
         {
-            "name": "Chelow (Persian Steamed Rice)",
+            "name": "Chelow",
             "description": "ََA fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
             "type": "Rice",
             "serving": "4 servings",
             "photo": "images/chelow.png",
             "alt": "A dish of Chelow, traditional Persian steamed rice with tahdig",
             "ingredients": [
-                {
-                    "name": "Persian rice",
-                    "quantity": "3 cups"
-                },
-                {
-                    "name": "Water",
-                    "quantity": "6 cups"
-                },
-                {
-                    "name": "Salt",
-                    "quantity": "2 tbsp"
-                },
-                {
-                    "name": "Oil or Butter",
-                    "quantity": "3 tbsp"
-                },
-                {
-                    "name": "Saffron (optional)",
-                    "quantity": "a pinch"
-                },
-                {
-                    "name": "potato or flatbread (for tahdig)",
-                    "quantity": "1"
-                }
+                {"value": "3 cups Persian rice"},
+                {"value": "6 cups Water"},
+                {"value": "2 tbsp Salt"},
+                {"value": "3 tbsp Oil or Butter"},
+                {"value": "a pinch of Saffron (optional)"},
+                {"value": "1 potato or flatbread (for tahdig)"}
             ],
             "instructions": [
-                {"1": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
-                {"2": "Soak the rice in salted water for at least 30 minutes, then drain."},
-                {"3": "Bring a large pot of water to a boil, add salt, and cook the rice for about 5-7 minutes until it's partially cooked (al dente)."},
-                {"4": "Drain the rice and rinse with cold water to stop the cooking process."},
-                {"5": "In a non-stick pot, heat oil or butter over medium heat. Add a layer of parboiled rice, then add a layer of potato slices or flatbread for tahdig."},
-                {"6": "Continue layering the remaining rice on top."},
-                {"7": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
-                {"8": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the tahdig is crispy and golden."},
-                {"9": "Serve the chelow with your choice of stew or grilled meat."}
+                {"value": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
+                {"value": "Soak the rice in salted water for at least 30 minutes, then drain."},
+                {"value": "Bring a large pot of water to a boil, add salt, and cook the rice for about 5-7 minutes until it's partially cooked (al dente)."},
+                {"value": "Drain the rice and rinse with cold water to stop the cooking process."},
+                {"value": "In a non-stick pot, heat oil or butter over medium heat. Add a layer of parboiled rice, then add a layer of potato slices or flatbread for tahdig."},
+                {"value": "Continue layering the remaining rice on top."},
+                {"value": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
+                {"value": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the tahdig is crispy and golden."},
+                {"value": "Serve the chelow with your choice of stew or grilled meat."}
             ],
             "preparationTime": "10 min",
             "cookingTime": "45 hours",            
@@ -108,41 +68,20 @@
             "photo": "images/joojeh_kabab.png",
             "alt": "A plate of Joojeh Kabab, Persian grilled chicken skewers with a golden saffron marinade",
             "ingredients": [
-                {
-                    "name": "Chicken (cut into pieces)",
-                    "quantity": "800g"
-                },
-                {
-                    "name": "Plain yogurt",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "Lemon juice",
-                    "quantity": "2 tbsp"
-                },
-                {
-                    "name": "Saffron (dissolved in hot water)",
-                    "quantity": "a pinch"
-                },
-                {
-                    "name": "Garlic (minced)",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "Onion (grated)",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                }
+                {"value": "800g Chicken (cut into pieces)"},
+                {"value": "1 cup Plain yogurt"},
+                {"value": "2 tbsp Lemon juice"},
+                {"value": "a pinch of Saffron (dissolved in hot water)"},
+                {"value": "2 cloves of Garlic (minced)"},
+                {"value": "1 medium Onion (grated)"},
+                {"value": "Salt and Pepper to taste"}
             ],
             "instructions": [
-                {"1": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
-                {"2": "Add the chicken pieces to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
-                {"3": "Preheat the grill to medium-high heat. Thread the marinated chicken pieces onto skewers."},
-                {"4": "Grill the chicken skewers for about 10-15 minutes, turning occasionally, until the chicken is cooked through and has a nice char."},
-                {"5": "Serve the joojeh kabab with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
+                {"value": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
+                {"value": "Add the chicken pieces to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
+                {"value": "Preheat the grill to medium-high heat. Thread the marinated chicken pieces onto skewers."},
+                {"value": "Grill the chicken skewers for about 10-15 minutes, turning occasionally, until the chicken is cooked through and has a nice char."},
+                {"value": "Serve the joojeh kabab with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
             ],
             "preparationTime": "15 min",
             "cookingTime": "25 min",
@@ -157,47 +96,23 @@
             "photo": "images/geymeh.png",
             "alt": "A bowl of Gheymeh, a traditional Persian stew with beef, yellow split peas, and dried limes",
             "ingredients": [
-                {
-                    "name": "Beef (cubed)",
-                    "quantity": "400g"
-                },
-                {
-                    "name": "Yellow Split Peas (cooked)",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "Dried Limes",
-                    "quantity": ""
-                },
-                {
-                    "name": "Potatoes (for frying)",
-                    "quantity": "2 medium"
-                },
-                {
-                    "name": "Onion (chopped)",
-                    "quantity": ""
-                },
-                {
-                    "name": "Tomato Paste",
-                    "quantity": "2 tbsp"
-                },
-                {
-                    "name": "Turmeric",
-                    "quantity": ""
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                }
+                {"value": "400g Beef (cubed)"},
+                {"value": "1 cup Yellow Split Peas (cooked)"},
+                {"value": "3 Dried Limes"},
+                {"value": "2 medium Potatoes (for frying)"},
+                {"value": "1 large Onion (chopped)"},
+                {"value": "2 tbsp Tomato Paste"},
+                {"value": "1 tbsp Turmeric"},
+                {"value": "Salt and Pepper to taste"}
             ],
             "instructions": [
-                            {"1": "In a large pot, sauté the chopped onion in a bit of oil until golden."},
-                            {"2": "Add the cubed beef and turmeric, cooking until the meat is browned on all sides."},
-                            {"3": "Add the tomato paste and cook for a few minutes to develop the flavor."},
-                            {"4": "Pour in enough water to cover the ingredients, then add the dried limes."},
-                            {"5": "Bring to a boil, then reduce heat and let it simmer for about 1.5 to 2 hours, or until the meat is tender."},
-                            {"6": "Add the cooked yellow split peas and continue to simmer for another 30 minutes."},
-                            {"7": "Season with salt and pepper to taste before serving. Garnish with crispy fried potatoes on top."}
+                {"value": "In a large pot, sauté the chopped onion in a bit of oil until golden."},
+                {"value": "Add the cubed beef and turmeric, cooking until the meat is browned on all sides."},
+                {"value": "Add the tomato paste and cook for a few minutes to develop the flavor."},
+                {"value": "Pour in enough water to cover the ingredients, then add the dried limes."},
+                {"value": "Bring to a boil, then reduce heat and let it simmer for about 1.5 to 2 hours, or until the meat is tender."},
+                {"value": "Add the cooked yellow split peas and continue to simmer for another 30 minutes."},
+                {"value": "Season with salt and pepper to taste before serving. Garnish with crispy fried potatoes on top."}
             ],
             "preparationTime": "20 min",
             "cookingTime": "1.5 hours",            
@@ -212,51 +127,24 @@
             "photo": "images/alu-esfenaj.png",
             "alt": "A bowl of Khoresh-e Esfenaj va Alu, a traditional Persian stew with spinach and prunes",
             "ingredients": [
-                {
-                    "name": "Chiken",
-                    "quantity": "6 pieces"
-                },
-                {
-                    "name": "Spinach (chopped)",
-                    "quantity": "1 kg"
-                },
-                {
-                    "name": "Prunes",
-                    "quantity": "200g"
-                },
-                {
-                    "name": "Sugar",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "lemon juice",
-                    "quantity": "2 tbsp"
-                },
-                {
-                    "name": "Cinnamon Stick",
-                    "quantity": "1 stick"
-                },
-                {
-                    "name": "Onion (chopped)",
-                    "quantity": "2 medium"
-                },
-                {
-                    "name": "Turmeric",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                }
+                {"value": "6 pieces Chiken"},
+                {"value": "1 kg Spinach (chopped)"},
+                {"value": "200g Prunes"},
+                {"value": "1 tsp of Sugar"},
+                {"value": "2 tbsp lemon juice"},
+                {"value": "1 stick of Cinnamon Stick"},
+                {"value": "2 medium Onion (chopped)"},
+                {"value": "1 tsp of Turmeric"},
+                {"value": "Salt and Pepper to taste"}
             ],
             "instructions": [
-                {"1": "Heat oil in a pot and sauté the chopped onion until golden."},
-                {"2": "Add turmeric and meat; cook until the meat is browned."},
-                {"3": "Pour in water, cover, and simmer for about 60 minutes until the meat is tender."},
-                {"4": "In a separate pan, sauté the spinach until wilted and reduced in volume."},
-                {"5": "Add the spinach and prunes to the pot."},
-                {"6": "Season with salt and pepper to taste before serving."},
-                {"7": "Add lemon juice (optional) for a slightly tangy flavor."}
+                {"value": "Heat oil in a pot and sauté the chopped onion until golden."},
+                {"value": "Add turmeric and meat; cook until the meat is browned."},
+                {"value": "Pour in water, cover, and simmer for about 60 minutes until the meat is tender."},
+                {"value": "In a separate pan, sauté the spinach until wilted and reduced in volume."},
+                {"value": "Add the spinach and prunes to the pot."},
+                {"value": "Season with salt and pepper to taste before serving."},
+                {"value": "Add lemon juice (optional) for a slightly tangy flavor."}
             ],
             "preparationTime": "10 mi",
             "cookingTime": "1.20 hours",            
@@ -271,45 +159,20 @@
             "photo": "images/kabab_tabei.png",
             "alt": "A plate of Kebab Tabei, a Persian-style pan-cooked minced meat kebab",
             "ingredients": [
-                {
-                    "name": "Minced meat",
-                    "quantity": "1 lb"
-                },
-                {
-                    "name": "Onion",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "Garlic",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "Turmeric",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Cumin",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Paprika",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Salt",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Black pepper",
-                    "quantity": "to taste"
-                }
-
+                {"value": "1 lb Minced meat"},
+                {"value": "1 medium Onion"},
+                {"value": "2 cloves Garlic"},
+                {"value": "1 tsp Turmeric"},
+                {"value": "1 tsp Cumin"},
+                {"value": "1 tsp Paprika"},
+                {"value": "Salt to taste"},
+                {"value": "Black pepper to taste"}
             ],
             "instructions": [
-                {"1": "In a bowl, combine the minced meat with finely chopped onion, minced garlic, turmeric, cumin, paprika, salt, and black pepper. Mix well until all ingredients are evenly incorporated."},
-                {"2": "Divide the meat mixture into equal portions and shape each portion into a flat oval or round patty."},
-                {"3": "Heat a non-stick skillet or frying pan over medium heat. Place the patties in the pan and cook for about 4-5 minutes on each side, or until they are cooked through and have a nice browned crust."},
-                {"4": "Serve the kabab tabei with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
+                {"value": "In a bowl, combine the minced meat with finely chopped onion, minced garlic, turmeric, cumin, paprika, salt, and black pepper. Mix well until all ingredients are evenly incorporated."},
+                {"value": "Divide the meat mixture into equal portions and shape each portion into a flat oval or round patty."},
+                {"value": "Heat a non-stick skillet or frying pan over medium heat. Place the patties in the pan and cook for about 4-5 minutes on each side, or until they are cooked through and have a nice browned crust."},
+                {"value": "Serve the kabab tabei with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
             ],
             "preparationTime": "15 mi",
             "cookingTime": "30 min",            
@@ -324,49 +187,25 @@
             "photo": "images/tahchin.png",
             "alt": "A slice of Tahchin, a Persian baked rice dish with a crispy golden crust and layers of chicken and saffron rice",
             "ingredients": [
-                {
-                    "name": "Persian rice",
-                    "quantity": "2 cups"
-                },
-                {
-                    "name": "Chicken breast (cooked and shredded)",
-                    "quantity": "300g"
-                },
-                {
-                    "name": "Plain yogurt",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "Eggs",
-                    "quantity": "2"
-                },
-                {
-                    "name": "Saffron (dissolved in hot water)",
-                    "quantity": "a pinch"
-                },
-                {    
-                    "name": "Turmeric",
-                    "quantity": "1/2 tsp"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Oil or Butter",
-                    "quantity": "3 tbsp"
-                }
+                {"value": "2 cups Persian rice"},
+                {"value": "300g Chicken breast (cooked and shredded)"},
+                {"value": "1 cup Plain yogurt"},
+                {"value": "2 Eggs"},
+                {"value": "a pinch of Saffron (dissolved in hot water)"},
+                {"value": "1/2 tsp Turmeric"},
+                {"value": "Salt and Pepper to taste"},
+                {"value": "3 tbs Oil or Butter"}
             ],
             "instructions": [
-                {"1": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
-                {"2": "Soak the rice in salted water for at least 30 minutes, then drain."},
-                {"3": "In a bowl, mix the plain yogurt, eggs, dissolved saffron, turmeric, salt, and pepper. Add the shredded chicken to the mixture and stir to combine."},
-                {"4": "In a non-stick pot or baking dish, spread a thin layer of oil or butter on the bottom. Add a layer of parboiled rice, then spread a layer of the chicken and yogurt mixture on top."},
-                {"5": "Continue layering the remaining rice and chicken mixture until all ingredients are used."},
-                {"6": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
-                {"7": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the bottom layer forms a crispy golden crust."},
-                {"8": "Alternatively, you can bake it in a preheated oven at 350°F (175°C) for about 45-60 minutes until fully cooked and golden brown."},
-                {"9": "Serve tahchin with your choice of stew or grilled meat."}
+                {"value": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
+                {"value": "Soak the rice in salted water for at least 30 minutes, then drain."},
+                {"value": "In a bowl, mix the plain yogurt, eggs, dissolved saffron, turmeric, salt, and pepper. Add the shredded chicken to the mixture and stir to combine."},
+                {"value": "In a non-stick pot or baking dish, spread a thin layer of oil or butter on the bottom. Add a layer of parboiled rice, then spread a layer of the chicken and yogurt mixture on top."},
+                {"value": "Continue layering the remaining rice and chicken mixture until all ingredients are used."},
+                {"value": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
+                {"value": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the bottom layer forms a crispy golden crust."},
+                {"value": "Alternatively, you can bake it in a preheated oven at 350°F (175°C) for about 45-60 minutes until fully cooked and golden brown."},
+                {"value": "Serve tahchin with your choice of stew or grilled meat."}
             ],
             "preparationTime": "20 min",
             "cookingTime": "75 min",            
@@ -381,46 +220,22 @@
             "photo": "images/kotlet.png",
             "alt": "A plate of Kotlet, crispy fried patties made from minced meat and potatoes",
             "ingredients": [
-                {
-                    "name": "Minced meat",
-                    "quantity": "500g"
-                },
-                {
-                    "name": "Potatoes",
-                    "quantity": "2 medium"
-                },
-                {
-                    "name": "Onions",
-                    "quantity": "1 large"
-                },
-                {
-                    "name": "Garlic",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "Cumin",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Coriander",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Paprika",
-                    "quantity": "to taste"
-                },                                
-                {
-                    "name": "Oil",
-                    "quantity": "as required for frying"
-                }
+                {"value": "500g Minced meat"},
+                {"value": "2 medium Potatoes"},
+                {"value": "1 largeOnions"},
+                {"value": "2 cloves Garlic"},
+                {"value": "Cumin to taste"},
+                {"value": "Coriander to taste"},
+                {"value": "Paprika to taste"},                                
+                {"value": "Oil as required for frying"}
             ],
             "instructions": [
-                {"1": "Boil the potatoes until tender, then mash them and let them cool."},
-                {"2": "In a large bowl, combine the minced meat, mashed potatoes, finely chopped onions, minced garlic, cumin, coriander, paprika, salt, and pepper. Mix well until all ingredients are evenly incorporated."},
-                {"3": "Shape the mixture into oval or round patties."},
-                {"4": "Heat oil in a frying pan over medium heat. Fry the patties in batches until they are golden brown and cooked through on both sides."},
-                {"5": "Drain the fried kotlet on paper towels to remove excess oil."},
-                {"6": "Serve hot with bread, fresh herbs, or a side of yogurt."}
+                {"value": "Boil the potatoes until tender, then mash them and let them cool."},
+                {"value": "In a large bowl, combine the minced meat, mashed potatoes, finely chopped onions, minced garlic, cumin, coriander, paprika, salt, and pepper. Mix well until all ingredients are evenly incorporated."},
+                {"value": "Shape the mixture into oval or round patties."},
+                {"value": "Heat oil in a frying pan over medium heat. Fry the patties in batches until they are golden brown and cooked through on both sides."},
+                {"value": "Drain the fried kotlet on paper towels to remove excess oil."},
+                {"value": "Serve hot with bread, fresh herbs, or a side of yogurt."}
             ],
             "preparationTime": "20 min",
             "cookingTime": "25 min",            
@@ -435,42 +250,21 @@
             "photo": "images/kookoo_sabzi.png",
             "alt": "A plate of Kookoo Sabzi, a traditional Persian herb-based omelet",
             "ingredients": [
-                {
-                    "name": "Fresh herbs (parsley, cilantro, dill)",
-                    "quantity": "1 bunch each (chopped)"
-                },
-                {
-                    "name": "Eggs",
-                    "quantity": "6 7 large"
-                },
-                {
-                    "name": "Onions",
-                    "quantity": "2 3 large, finely chopped"
-                },
-                {
-                    "name": "Walnut chopped (optional)",
-                    "quantity": "1/2 cup"
-                },
-                {   
-                    "name": "Turmeric",
-                    "quantity": "1/2 tsp"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Oil",
-                    "quantity": "as required for frying"
-                }
+                {"value": "1 bunch each parsley, cilantro, dill(chopped)"},
+                {"value": "6 7 large Eggs"},
+                {"value": "2 3 large Onions, finely chopped"},
+                {"value": "1/2 cup Walnut chopped (optional)"},
+                {"value": "1/2 tsp Turmeric"},
+                {"value": "Salt and Pepper to taste"},
+                {"value": "Oil as required for frying"}
             ],
             "instructions": [
-                {"1": "In a large bowl, beat the eggs and season with salt, pepper, and turmeric."},
-                {"2": "Add the chopped herbs, onions, and walnuts (if using) to the beaten eggs. Mix well to combine."},
-                {"3": "Heat oil in a non-stick skillet over medium heat. Pour the egg and herb mixture into the skillet, spreading it out evenly."},
-                {"4": "Cook on medium-low heat until the bottom is set and golden brown, about 5-7 minutes."},
-                {"5": "Carefully flip the kookoo using a large plate or lid to help turn it over. Cook the other side until golden brown and fully set, about another 5-7 minutes."},
-                {"6": "Serve warm or at room temperature with bread or yogurt on the side."}
+                {"value": "In a large bowl, beat the eggs and season with salt, pepper, and turmeric."},
+                {"value": "Add the chopped herbs, onions, and walnuts (if using) to the beaten eggs. Mix well to combine."},
+                {"value": "Heat oil in a non-stick skillet over medium heat. Pour the egg and herb mixture into the skillet, spreading it out evenly."},
+                {"value": "Cook on medium-low heat until the bottom is set and golden brown, about 5-7 minutes."},
+                {"value": "Carefully flip the kookoo using a large plate or lid to help turn it over. Cook the other side until golden brown and fully set, about another 5-7 minutes."},
+                {"value": "Serve warm or at room temperature with bread or yogurt on the side."}
             ],
             "preparationTime": "15 min",
             "cookingTime": "15 min",            
@@ -485,46 +279,22 @@
             "photo": "images/kookoo_sibzamini.png",
             "alt": "A plate of Kookoo Sibzamini, a Persian potato omelet with a crispy golden crust",
             "ingredients": [
-                {
-                    "name": "Potatoes (boiled and mashed)",
-                    "quantity": "4 large"
-                },
-                {
-                    "name": "Eggs",
-                    "quantity": "4 large"
-                },
-                {
-                    "name": "Onions (finely chopped)",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "Garlic (minced)",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "Cumin",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Paprika",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Oil",
-                    "quantity": "as required for frying"
-                }
+                {"value": "4 large Potatoes (boiled and mashed)"},
+                {"value": "4 large Eggs"},
+                {"value": "1 medium Onions (finely chopped)"},
+                {"value": "2 cloves Garlic (minced)"},
+                {"value": "1 tsp Cumin"},
+                {"value": "1 tsp Paprika"},
+                {"value": "Salt and Pepper to taste"},
+                {"value": "Oil as required for frying"}
             ],
             "instructions": [
-                {"1": "In a large bowl, beat the eggs and season with salt, pepper, and paprika."},
-                {"2": "Add the mashed potatoes, onions, and garlic to the beaten eggs. Mix well to combine."},
-                {"3": "Heat oil in a non-stick skillet over medium heat. Pour the egg and potato mixture into the skillet, spreading it out evenly."},
-                {"4": "Cook on medium-low heat until the bottom is set and golden brown, about 5-7 minutes."},
-                {"5": "Carefully flip the kookoo using a large plate or lid to help turn it over. Cook the other side until golden brown and fully set, about another 5-7 minutes."},
-                {"6": "Serve warm or at room temperature with bread or yogurt on the side."}
+                {"value": "In a large bowl, beat the eggs and season with salt, pepper, and paprika."},
+                {"value": "Add the mashed potatoes, onions, and garlic to the beaten eggs. Mix well to combine."},
+                {"value": "Heat oil in a non-stick skillet over medium heat. Pour the egg and potato mixture into the skillet, spreading it out evenly."},
+                {"value": "Cook on medium-low heat until the bottom is set and golden brown, about 5-7 minutes."},
+                {"value": "Carefully flip the kookoo using a large plate or lid to help turn it over. Cook the other side until golden brown and fully set, about another 5-7 minutes."},
+                {"value": "Serve warm or at room temperature with bread or yogurt on the side."}
             ],
             "preparationTime": "15 min",
             "cookingTime": "15 min",
@@ -539,44 +309,23 @@
             "photo": "images/chelow_kebab.png",
             "alt": "A plate of Chelow Kebab, Persian grilled meat kebabs served with saffron rice and grilled tomatoes",
             "ingredients": [
-                {
-                    "name": "Minced meat or chicken (for kebab)",
-                    "quantity": "500g"
-                },
-                {
-                    "name": "Onion (chopped)",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "Garlic (minced)",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "Saffron (dissolved in hot water)",
-                    "quantity": "a pinch"
-                },
-                {
-                    "name": "Salt and Pepper",
-                    "quantity": "to taste"
-                },
-                {
-                    "name": "Oil",
-                    "quantity": "as required for frying or grilling"
-                },
-                {
-                    "name": "Persian rice",
-                    "quantity": "3 cups"
-                }
+                {"value": "500g Minced meat"},
+                {"value": "1 medium Onion (chopped)"},
+                {"value": "2 cloves Garlic (minced)"},
+                {"value": "a pinch of Saffron (dissolved in hot water)"},
+                {"value": "Salt and Pepper to taste"},
+                {"value": "Oil as required for frying or grilling"},
+                {"value": "3 cups Persian rice"}
             ],
             "instructions": [
-                {"1": "Prepare the kebab by mixing the minced meat or chicken with chopped onion, minced garlic, dissolved saffron, salt, and pepper. Shape the mixture into kebabs."},
-                {"2": "Grill or pan-fry the kebabs until they are cooked through and have a nice char."},
-                {"3": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
-                {"4": "Soak the rice in salted water for at least 30 minutes, then drain."},
-                {"5": "Cook the rice in boiling salted water until it's partially cooked (al dente), then drain and rinse with cold water."},
-                {"6": "In a non-stick pot, heat oil and add a layer of parboiled rice. Continue layering the remaining rice on top."},
-                {"7": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam. Cook on low heat for about 30-40 minutes until the rice is fully cooked and has a crispy golden crust (tahdig)."},
-                {"8": "Serve the chelow with the grilled kebabs, along with grilled tomatoes and fresh herbs."}
+                {"value": "Prepare the kebab by mixing the minced meat or chicken with chopped onion, minced garlic, dissolved saffron, salt, and pepper. Shape the mixture into kebabs."},
+                {"value": "Grill or pan-fry the kebabs until they are cooked through and have a nice char."},
+                {"value": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
+                {"value": "Soak the rice in salted water for at least 30 minutes, then drain."},
+                {"value": "Cook the rice in boiling salted water until it's partially cooked (al dente), then drain and rinse with cold water."},
+                {"value": "In a non-stick pot, heat oil and add a layer of parboiled rice. Continue layering the remaining rice on top."},
+                {"value": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam. Cook on low heat for about 30-40 minutes until the rice is fully cooked and has a crispy golden crust (tahdig)."},
+                {"value": "Serve the chelow with the grilled kebabs, along with grilled tomatoes and fresh herbs."}
             ],
             "preparationTime": "30 min",
             "cookingTime": "1.5 hours",            
@@ -591,52 +340,22 @@
             "photo": "images/ash_reshteh.png",
             "alt": "A bowl of Ash Reshteh, a traditional Persian soup with herbs, beans, and noodles",
             "ingredients": [
-                {
-                    "name": "chickpeas (cooked) ",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "lentils (cooked)",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "red kidney beans (cooked)",
-                    "quantity": "1 cup"
-                },
-                {
-                    "name": "fresh herbs (parsley, cilantro, spinach)",
-                    "quantity": "1 bunch each (chopped)"
-                },
-                {
-                    "name": "reshtah noodles",
-                    "quantity": "200g"
-                },
-                {
-                    "name": "onion (chopped)",
-                    "quantity": "1 medium"
-                },
-                {
-                    "name": "garlic (minced)",
-                    "quantity": "2 cloves"
-                },
-                {
-                    "name": "dried mint",
-                    "quantity": "1 tsp"
-                },
-                {
-                    "name": "turmeric",
-                    "quantity": "1/2 tsp"
-                },
-                {
-                    "name": "salt and pepper",
-                    "quantity": "to taste"
-                }
+                {"value": "1 cup chickpeas (cooked)"},
+                {"value": "1 cup lentils (cooked)"},
+                {"value": "1 cup red kidney beans (cooked)"},
+                {"value": "1 bunch each (chopped) parsley, cilantro, spinach"},
+                {"value": "200g reshtah noodles"},
+                {"value": "1 medium onion (chopped)"},
+                {"value": "2 cloves garlic (minced)"},
+                {"value": "1 tsp dried mint"},
+                {"value": "1/2 tsp Turmeric"},
+                {"value": "salt and pepper to taste"}
             ],
             "instructions": [
-                {"1": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
-                {"2": "Add the lamb chops to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
-                {"3": "Preheat the grill to medium-high heat. Grill the lamb chops for about 4-5 minutes on each side for medium-rare, or longer if you prefer them more well-done."},
-                {"4": "Serve the shishlik with chelow (steamed rice) or flatbread, along with grilled vegetables and fresh herbs."}
+                {"value": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
+                {"value": "Add the lamb chops to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
+                {"value": "Preheat the grill to medium-high heat. Grill the lamb chops for about 4-5 minutes on each side for medium-rare, or longer if you prefer them more well-done."},
+                {"value": "Serve the shishlik with chelow (steamed rice) or flatbread, along with grilled vegetables and fresh herbs."}
             ],
             "preparationTime": "15 min",
             "cookingTime": "30 min",            
