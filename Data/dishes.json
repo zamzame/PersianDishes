@@ -64,7 +64,7 @@
             "name": "Joojeh Kabab",
             "description": "A popular Persian dish made with marinated chicken, grilled to juicy perfection with a tangy saffron flavor.",
             "type": "Kebab",
-            "serving": "5",
+            "serving": "5 servings",
             "photo": "images/joojeh_kabab.png",
             "alt": "A plate of Joojeh Kabab, Persian grilled chicken skewers with a golden saffron marinade",
             "ingredients": [
