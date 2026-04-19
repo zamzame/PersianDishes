@@ -1,64 +1,42 @@
 # PersianDishes
 
-This web application is useful for people who love Persian dishes and want a simple way to cook and enjoy them.
-It provides recipes for popular Persian dishes.
+🔶Purpose of the App🔶
 
-                                             🔷 Steps (Issues) 🔷   
-🔶 Setup Initial
-    🔹creating repo
-    🔹sketching the page structure
+This web application is designed to help users explore and cook traditional Persian dishes in a simple and accessible way. 
+It provides structured recipes with clear ingredients, step-by-step instructions, and preparation details, 
+making it easy for users to discover new meals or recreate authentic flavors at home.
 
-🔶 Setup Data
-    🔹Creating the data requirement for the web page
-    🔹Preparing the required images
+🔶Target Audience🔶
 
-🔶 Setup Code
-    🔹file structures
-    🔹link html and css files to js 
-     🐞While deploying this step commits on GitHub, I encountered an Issue.
-        It built successfully, but for the deloped link, it said that there is submodule under the current repo.
-        I resolved the submodule repo by updating the files from local. Deplyment done, but refered to 404.
-        the reason was in loading code for the extra "/". I changed it to
-        loadHTML("header", "/components/header.html");' to 'loadHTML("header", "components/header.html");
+The app is intended for anyone interested in Persian cuisine, including beginners who want simple guidance, home cooks 
+looking for authentic recipes, and food enthusiasts exploring new cultural dishes. 
+It is especially useful for users who prefer a clean, organized, and easy-to-navigate recipe experience.
 
-🔶 Create Main Page
-    🔹Header: Name, Current time, Current Location, Navigation bar (Home, Contact Us)
-    🔹Footer: Page Description, About Us, Contact Us
-    🔹Search Bar
-    🔹Dishes Gallery
-    🔹Ensure the design being responsive
+🔶Data Mapping🔶
 
-🔶 Create Recipe Page 
-    🔹The same header & Footer
-    🔹Dish's Photo
-    🔹Ingredients
-    🔹Instructions
-    🔹Ensure the design being responsive
+🔹name              –-> Name of the dish
+🔹description       –-> Short summary of the dish
+🔹type              –-> Category (e.g., Stew, Rice, Kebab, Soup)
+🔹serving           –-> Number of servings
+🔹photo             –-> Image photo for the dish
+🔹alt               –-> Alternative text for accessibility
+🔹ingredients       –-> Array of ingredient objects
+🔹ingredients.value –-> Ingredient description
+🔹instructions      –-> Array of instruction steps
+🔹instructions.value–-> Step description
+🔹preparationTime   –-> Time needed for preparation
+🔹cookingTime       –-> Cooking duration
+🔹time              –-> Total time
+🔹region            –-> Origin of the dish
 
-🔶 UI Dishes' Gallery
-    🔹Map dishes' data to an array and render cards to DOM
-
-🔶 Logic Search
-    🔹Create an event listener for real-time searching
-
-🔶 Create Contact Page
-    🔹The same header & footer
-    🔹Receive users name, email, message
-    🔹Show the page's contact information: email, phone, location
-    🔹Handling input validation
-    🔹Ensure the design being responsive
-
-🔶 Integration
-    🔹Fetch data from an external API: Current Time and Location
-    🔹Display in Widget
-
-🔶 Documentation
-    🔹Complete ReadMe with "Challenges and Solutions"
-    🔹Connect commits with GitHub Issues
 
                                             🔷 Challenges and Solutions 🔷 
 
 🐞 Make a card clickable                => using click event and encodeURIComponent                              
-🐞 Pass a parameter to the next page 
-🐞 
+🐞 Pass a parameter to the next page    => using encodeURIComponent() and URLSearchParams(window.location.search)
+🐞 GitHub deployment bug                =>
+🐞 Search bar filtering display bug     =>
+    (just for some single result)
+🐞 Scrolling only in one column         =>
+    (both of them in one section)
 

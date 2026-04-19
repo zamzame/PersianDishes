@@ -7,8 +7,6 @@ body {
 }
 header {
     width:100%;
-    /* background-color: rgb(247, 240, 228); */
-    /* background-color: rgb(245, 245, 224); */
     border-bottom: 0.1px solid rgb(238, 222, 192);
 }
 header .right {
@@ -34,7 +32,9 @@ header span{
     align-items: center;
     background-color: white;
     /* border-bottom: 2px solid orange; */
-    border-bottom: 0.1px solid rgb(238, 222, 192);    
+    width:100%;
+    border-bottom: 0.1px solid rgb(238, 222, 192);
+    /* border-bottom: 0.1px solid rgb(238, 222, 192);     */
 }
 
 .footer-top {
@@ -103,7 +103,6 @@ nav {
     color: rgb(104, 68, 3);
     padding: 0.5rem;
     border-radius: 10px;
-    /* font-weight: bold; */
     font-size: 1rem;
 }
 .contact:hover{
@@ -113,62 +112,97 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;            
+    min-height: 100rem;
 }
 
+.middleSec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1d5c8;
+    max-width: auto ;
+    width: 100%;
+    gap:30px;
+    padding: 1.5rem;
+}
 .galleryTitle{
     display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    padding: 1.5rem;
 }
 
 .galTitle{
     align-items: center;
     color: grey;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 2rem;  
+    font-size: 2.5rem;  
     min-width: 3rem;
+    padding: 1.5rem;
+}
+
+.galDesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    align-items: center;
+    font-size: 1.2rem;  
+    max-width: 650px; 
+    flex-wrap: wrap;   
 }
 
 .searchBar {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 400px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 35rem;         
+    padding: 1.5rem;
 }
 
-#inputSearch{
+.inputSearch{
     display:flex;
     justify-content: center;
-    padding: 0.5rem;
-    font-size: 1.2rem; 
-    border-radius: 20px;
+    color: rgb(126 84 7);
+    width: 35rem;
+    padding: 1rem;
+    font-size: 0.9rem; 
+    border: none;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px rgb(126 84 7);
 }
 
-.not-found-message {
+.inputSearch:focus{
+    cursor:cell;
+    outline: none;
+    border: 1px solid rgb(133, 90, 12);
+}
+.inputSearch:hover{
+    cursor: pointer;
+}
+.notFoundMsg {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: gray;
+    font-style: italic;
     width: 100%;
     max-width: 30rem;   
-    font-style: italic;
-}  
-/* .dishLink {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-} */
+    padding: 15rem;
+}
+
 .dishes{
     display: flex;
     justify-content: center;
     gap: 30px;
-    max-width: 1300px;
+    max-width: 80rem; 
+    /* max-width: 1300px;  */
     flex-wrap: wrap;       
+    padding: 1.5rem;
 }
 
 /* Dish Card Info */
@@ -187,7 +221,16 @@ main {
     transition: transform 0.3s;
     flex-wrap: wrap;
 }
+@media (max-width: 700px) {
+    .projects {
+        flex-direction: column;   
+        align-items: center;
+    }
 
+    .card {
+        width: 90%;   
+    }
+} 
 .dishCard:hover {
     transform: scale(1.05);
     border: 1px solid rgb(133, 90, 12);
@@ -197,7 +240,7 @@ main {
     justify-content: stretch;
     border-radius: 15px 15px 0 0;
     margin: 0;
-    padding: 0px;
+    /* padding: 0px; */
     width: 100%;
     height: 45%;    
 }
@@ -221,16 +264,12 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-h3 {
+.title { 
     color: rgb(133, 90, 12);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
 
-.title {
-    display: flex;
-    font-weight: bold;
-}         
 .dishType {
     background-color: rgb(247, 209, 140);
     color: rgb(104, 68, 3);
@@ -243,7 +282,7 @@ h3 {
 .dishDesc {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 1em;
     line-height: 1.5;
     color: rgb(104, 68, 3);
 }        
@@ -254,44 +293,119 @@ h3 {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;    
     color: rgb(104, 68, 3);
-    font-size: 11px;
+    /* font-size: 11px; */
+    font-size: 0.7rem;
     gap: 20px;
     width: fit-content;
-    /* flex-wrap: wrap; */
 }      
 
+.dishBadge{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;    
+    color: rgb(104, 68, 3);
+    font-size: 0.8rem;
+    gap: 50px;
+    padding: 32px;
+    width: fit-content;
+    min-width: 450;
+    width: 100%;
+    border-radius: 20px;
+}    
 /* .prepBadge  */
-.badge section{
+.dishBadge section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 10px; */
+    gap:10px;
 }
-
-.badge section .emojip .emojic .emojis{
+/* Preparation Time */
+.emojip{
     width:100%;
     max-width: 20px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 10px; */
 }
 
-.badge section .lblp .lblc .lbls{
-    font-size: 10px;
-    font-weight: bold;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* padding: 10px; */
+.lblp{
+    font-size: 0.7rem;
+}
+.prepTime{
+    font-size: 1rem;
+}
+/* Cooking Time */
+.emojic{
+    width:100%;
+    max-width: 20px;
 }
 
-.badge section .prepTimeBadge .cookTimeBadge .servingBadge{
-    font-size: 50px;
-    font-weight: bold;
+.lblc{
+    gap: 10px;
+    font-size: 0.7rem;
+}
+
+.cookTime{
+    font-size: 1rem;
+}
+/* Serving Time */
+.emojis{
+    width:100%;
+    max-width: 20px;
+}
+
+.lbls{
+    gap: 10px;
+    font-size: 0.7rem;
+}
+
+.serving{
+    font-size: 1rem;
+}
+
+.ingrdnList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    gap: 10px;
+    padding: 30px;
+    width: 100%;
+    min-width: 420;
+    border-radius: 20px;    
+}
+
+.instructList{
+    display: flex;
+    flex-direction: column;
+    list-style-type: decimal;
+    gap: 20px;
+    width: 100%;
+    min-width: 420;
+    padding: 30px;
+    border: 1px solid rgb(233, 210, 168);
+    border-radius: 20px;        
+}
+
+.instructList li {
+    background-color: white;
+    border: 1px solid rgb(233, 210, 168);
+    border-radius: 10px;  
+    padding: 15px;
+    gap: 50px;
+}
+
+.enjoy {
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(248, 227, 217);
+    color: rgb(145, 113, 53);
+    border: 1px solid rgb(145, 113, 53);
+    width: 100%;
+    min-width: 420;    
+    padding: 30px;
+    
+    border-radius: 20px;        
 }
 
 .myDishRecipe{
