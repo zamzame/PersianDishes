@@ -3,11 +3,11 @@
             "name": "Ghormeh Sabzi",
             "description": "A classic Persian dish made with fresh herbs, tender beef, kidney beans, and dried limes, known for its rich, tangy, and aromatic flavor.",
             "type": "Stew",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/gorme-shabzi.png",
             "alt": "A bowl of Ghormeh Sabzi, a traditional Persian herb stew with beef and kidney beans",
             "ingredients": [
-                {"value": "400, 500g Beef (cubed)"},
+                {"value": "400-500g Beef (cubed)"},
                 {"value": "1 cup Kidney Beans (cooked)"},
                 {"value": "2 cups (chopped) Fresh Herbs (parsley, cilantro, fenugreek)"},
                 {"value": "2,3 Dried Limes"},
@@ -31,9 +31,9 @@
         },
         {
             "name": "Chelow",
-            "description": "ََA fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
+            "description": "A fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
             "type": "Rice",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/chelow.png",
             "alt": "A dish of Chelow, traditional Persian steamed rice with tahdig",
             "ingredients": [
@@ -56,7 +56,7 @@
                 {"value": "Serve the chelow with your choice of stew or grilled meat."}
             ],
             "preparationTime": "10 min",
-            "cookingTime": "45 hours",            
+            "cookingTime": "45 min",            
             "time": "55 min",
             "region": "Iran"
         },
@@ -92,7 +92,7 @@
             "name": "Gheymeh",
             "description": "A hearty Persian stew made with tender beef, yellow split peas, dried limes, and a tomato-based sauce, often garnished with crispy fried potatoes.",
             "type": "Stew",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/geymeh.png",
             "alt": "A bowl of Gheymeh, a traditional Persian stew with beef, yellow split peas, and dried limes",
             "ingredients": [
@@ -123,11 +123,11 @@
             "name": "Khoresh-e Esfenaj va Alu",
             "description": "A traditional Persian stew made with spinach, tender meat, and sweet-sour prunes, creating a rich and comforting flavor.",
             "type": "Stew",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/alu-esfenaj.png",
             "alt": "A bowl of Khoresh-e Esfenaj va Alu, a traditional Persian stew with spinach and prunes",
             "ingredients": [
-                {"value": "6 pieces Chiken"},
+                {"value": "6 pieces Chicken"},
                 {"value": "1 kg Spinach (chopped)"},
                 {"value": "200g Prunes"},
                 {"value": "1 tsp of Sugar"},
@@ -146,8 +146,8 @@
                 {"value": "Season with salt and pepper to taste before serving."},
                 {"value": "Add lemon juice (optional) for a slightly tangy flavor."}
             ],
-            "preparationTime": "10 mi",
-            "cookingTime": "1.20 hours",            
+            "preparationTime": "10 min",
+            "cookingTime": "80 min",            
             "time": "1.5 hours",
             "region": "Iran"
         }, 
@@ -155,7 +155,7 @@
             "name": "Kebab Tabei",
             "description": "A simple and juicy Persian-style minced meat kebab cooked in a pan instead of a grill, making it an easy homemade version of traditional kebab.",
             "type": "Kebab",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/kabab_tabei.png",
             "alt": "A plate of Kebab Tabei, a Persian-style pan-cooked minced meat kebab",
             "ingredients": [
@@ -174,16 +174,16 @@
                 {"value": "Heat a non-stick skillet or frying pan over medium heat. Place the patties in the pan and cook for about 4-5 minutes on each side, or until they are cooked through and have a nice browned crust."},
                 {"value": "Serve the kabab tabei with chelow (steamed rice) or flatbread, along with grilled tomatoes and fresh herbs."}
             ],
-            "preparationTime": "15 mi",
+            "preparationTime": "15 min",
             "cookingTime": "30 min",            
             "time": "45 min",
             "region": "Iran"
         },
         {
             "name": "Tahchin",
-            "description": "َA famous Persian baked rice dish made with yogurt, eggs, saffron, and layered chicken or meat, known for its crispy golden crust and rich aroma.",
+            "description": "A famous Persian baked rice dish made with yogurt, eggs, saffron, and layered chicken or meat, known for its crispy golden crust and rich aroma.",
             "type": "Rice",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/tahchin.png",
             "alt": "A slice of Tahchin, a Persian baked rice dish with a crispy golden crust and layers of chicken and saffron rice",
             "ingredients": [
@@ -216,13 +216,13 @@
             "name": "Kotlet",
             "description": "A crispy, golden fried patties made from minced meat, potatoes, and spices, commonly served as a quick and delicious Persian street-style meal.",
             "type": "Omelet",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/kotlet.png",
             "alt": "A plate of Kotlet, crispy fried patties made from minced meat and potatoes",
             "ingredients": [
                 {"value": "500g Minced meat"},
                 {"value": "2 medium Potatoes"},
-                {"value": "1 largeOnions"},
+                {"value": "1 large Onions"},
                 {"value": "2 cloves Garlic"},
                 {"value": "Cumin to taste"},
                 {"value": "Coriander to taste"},
@@ -246,13 +246,13 @@
             "name": "Kookoo Sabzi",
             "description": "A traditional Persian herb-based omelet made with fresh herbs and eggs, often served cold or warm as a light meal or appetizer.",
             "type": "Omelet",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/kookoo_sabzi.png",
             "alt": "A plate of Kookoo Sabzi, a traditional Persian herb-based omelet",
             "ingredients": [
                 {"value": "1 bunch each parsley, cilantro, dill(chopped)"},
-                {"value": "6 7 large Eggs"},
-                {"value": "2 3 large Onions, finely chopped"},
+                {"value": "6-7 large Eggs"},
+                {"value": "2-3 large Onions, finely chopped"},
                 {"value": "1/2 cup Walnut chopped (optional)"},
                 {"value": "1/2 tsp Turmeric"},
                 {"value": "Salt and Pepper to taste"},
@@ -275,7 +275,7 @@
             "name": "Kookoo Sibzamini",
             "description": "A popular Persian dish made with mashed potatoes, eggs, and spices, pan-fried until crispy on the outside and soft inside.",
             "type": "Omelet",
-            "serving": "6 servings",
+            "serving": "6",
             "photo": "images/kookoo_sibzamini.png",
             "alt": "A plate of Kookoo Sibzamini, a Persian potato omelet with a crispy golden crust",
             "ingredients": [
@@ -305,7 +305,7 @@
             "name": "Chelow Kebab",
             "description": "One of the most famous Persian dishes, consisting of fragrant saffron rice served with juicy grilled meat kebabs, often accompanied by grilled tomatoes.",
             "type": "Kebab",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/chelow_kebab.png",
             "alt": "A plate of Chelow Kebab, Persian grilled meat kebabs served with saffron rice and grilled tomatoes",
             "ingredients": [
@@ -336,7 +336,7 @@
             "name": "Ash Reshteh",
             "description": "A hearty Persian soup made with herbs, beans, noodles, and topped with fried onions, garlic, and mint",
             "type": "Soup",
-            "serving": "4 servings",
+            "serving": "4",
             "photo": "images/ash_reshteh.png",
             "alt": "A bowl of Ash Reshteh, a traditional Persian soup with herbs, beans, and noodles",
             "ingredients": [
@@ -352,14 +352,16 @@
                 {"value": "salt and pepper to taste"}
             ],
             "instructions": [
-                {"value": "In a bowl, combine the plain yogurt, lemon juice, dissolved saffron, minced garlic, grated onion, salt, and pepper. Mix well to create the marinade."},
-                {"value": "Add the lamb chops to the marinade and coat them thoroughly. Cover and refrigerate for at least 2 hours, preferably overnight for best flavor."},
-                {"value": "Preheat the grill to medium-high heat. Grill the lamb chops for about 4-5 minutes on each side for medium-rare, or longer if you prefer them more well-done."},
-                {"value": "Serve the shishlik with chelow (steamed rice) or flatbread, along with grilled vegetables and fresh herbs."}
+                {"value": "In a large pot, add chickpeas, kidney beans, and lentils with water. Cook until tender (about 45–60 minutes)."},
+                {"value": "Fry sliced onions in oil until golden. Set aside half for garnish. Add garlic and turmeric to the remaining onions and sauté briefly."},
+                {"value": "Add chopped parsley, cilantro, spinach, and green onions to the pot. Cook for 20–30 minutes."},
+                {"value": "Add reshteh noodles and cook for another 15–20 minutes until soft."},
+                {"value": "Heat a little oil, add dried mint, and sauté briefly (do not burn)."},
+                {"value": "Add salt and pepper. Serve hot, topped with fried onions, mint oil, and kashk."}
             ],
             "preparationTime": "15 min",
             "cookingTime": "30 min",            
             "time": "45 min",
             "region": "Iran"
         }
-    ]
+]

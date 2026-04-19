@@ -72,16 +72,16 @@ function displayDishGallery(recipeInfo) {
     recipeDesc.className = "recipeDesc";
     recipe.appendChild(recipeDesc);
 
-    const badge = document.createElement("section");
-    badge.className = "badge";
-    badge.classList.add("badge");
-    recipe.appendChild(badge);
+    const dishBadge = document.createElement("section");
+    dishBadge.className = "dishBadge";
+    dishBadge.classList.add("dishBadge");
+    recipe.appendChild(dishBadge);
     
     //prepTime
     const prepBadge = document.createElement("section");
     prepBadge.className = "prepBadge";
     prepBadge.classList.add("prepBadge");
-    badge.appendChild(prepBadge);
+    dishBadge.appendChild(prepBadge);
 
     const emojip = document.createElement("span");
     emojip.textContent = "🕑";
@@ -93,16 +93,16 @@ function displayDishGallery(recipeInfo) {
     lblp.className = "lblp";
     prepBadge.appendChild(lblp);
 
-    const prepTimeBadge = document.createElement("span");
-    prepTimeBadge.textContent = recipeInfo.preparationTime;
-    prepTimeBadge.className = "prepTimeBadge";
-    prepBadge.appendChild(prepTimeBadge);
+    const prepTime = document.createElement("span");
+    prepTime.textContent = recipeInfo.preparationTime;
+    prepTime.className = "prepTime";
+    prepBadge.appendChild(prepTime);
 
     //cookTime
     const cookBadge = document.createElement("section");
     cookBadge.className = "cookBadge";
     cookBadge.classList.add("cookBadge");
-    badge.appendChild(cookBadge);
+    dishBadge.appendChild(cookBadge);
 
     const emojic = document.createElement("span");
     emojic.textContent = "👩‍🍳";
@@ -114,16 +114,16 @@ function displayDishGallery(recipeInfo) {
     lblc.className = "lblc";
     cookBadge.appendChild(lblc);
 
-    const cookTimeBadge = document.createElement("span");
-    cookTimeBadge.textContent = recipeInfo.cookingTime;
-    cookTimeBadge.className = "cookTimeBadge";
-    cookBadge.appendChild(cookTimeBadge);
+    const cookTime = document.createElement("span");
+    cookTime.textContent = recipeInfo.cookingTime;
+    cookTime.className = "cookTime";
+    cookBadge.appendChild(cookTime);
 
     //servTime 
     const servBadge = document.createElement("section");
     servBadge.className = "servBadge";
     servBadge.classList.add("servBadge");
-    badge.appendChild(servBadge);
+    dishBadge.appendChild(servBadge);
 
     const emojis = document.createElement("span");
     emojis.textContent = "👥";
@@ -135,10 +135,10 @@ function displayDishGallery(recipeInfo) {
     lbls.className = "lbls";
     servBadge.appendChild(lbls);
 
-    const servingBadge = document.createElement("span");
-    servingBadge.textContent = recipeInfo.serving;
-    servingBadge.className = "servingBadge";
-    servBadge.appendChild(servingBadge);
+    const serving = document.createElement("span");
+    serving.textContent = recipeInfo.serving;
+    serving.className = "serving";
+    servBadge.appendChild(serving);
     
     //End
 
@@ -192,7 +192,7 @@ function displayDishGallery(recipeInfo) {
     });
 
     const enjoy = document.createElement("h2");
-    enjoy.textContent = "Enjoy your meal!";
+    enjoy.textContent = "Enjoy your meal!❤️";
     enjoy.className = "enjoy";
     recipe.appendChild(enjoy);
 
