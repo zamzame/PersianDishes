@@ -7,7 +7,7 @@ loadHTML("footer", "../components/footer.html");
 
 setTimeout(() => {
   loadLocationAndTime();
-}, 300);
+}, 10);
 
 const params = new URLSearchParams(window.location.search);
 const dishName = params.get("name")?.trim().toLowerCase();

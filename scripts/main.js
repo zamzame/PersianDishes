@@ -7,7 +7,7 @@ loadHTML("footer", "../components/footer.html");
 
 setTimeout(() => {
   loadLocationAndTime();
-}, 300);
+}, 10);
 
 let myGalleries = [];
 
