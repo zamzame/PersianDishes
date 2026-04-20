@@ -19,7 +19,8 @@ header .right {
 
 header span{
     background-color: white;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 0.8rem;
     padding: 5px;
     border-radius: 5px;
     border: 1px solid rgb(233, 210, 168);
@@ -95,24 +96,29 @@ nav {
 }
 .home:hover{
     font-weight: bold;
+    cursor: pointer;
 }
-.contact {
+.contactBtn {
     text-decoration: none;
     outline-style: none;
-    background-color: rgb(202, 193, 176);
-    color: rgb(104, 68, 3);
+    /* background-color: rgb(202, 193, 176); */
+    background-color: orange;
+    color:white;
+    /* color: rgb(104, 68, 3); */
     padding: 0.5rem;
     border-radius: 10px;
     font-size: 1rem;
 }
 .contact:hover{
     background-color: rgb(180, 173, 158);
+    cursor: pointer;
 }
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100rem;
+    height: auto;
+    min-height: 60rem;
 }
 
 .middleSec {
@@ -153,7 +159,8 @@ main {
     color: grey;
     align-items: center;
     font-size: 1.2rem;  
-    max-width: 650px; 
+    /* max-width: 650px;  */
+    max-width: 40rem;     
     flex-wrap: wrap;   
 }
 
@@ -169,25 +176,30 @@ main {
     justify-content: center;
     color: rgb(126 84 7);
     width: 35rem;
+/* 
+    width: 100%;
+    max-width: 35rem; */
+    
     padding: 1rem;
     font-size: 0.9rem; 
     border: none;
     border-radius: 30px;
     box-shadow: 1px 1px 5px rgb(126 84 7);
+    
 }
 
 .inputSearch:focus{
-    cursor:cell;
+    cursor:text;
     outline: none;
     border: 1px solid rgb(133, 90, 12);
 }
 .inputSearch:hover{
-    cursor: pointer;
+    cursor: text;
 }
 .notFoundMsg {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     color: gray;
     font-style: italic;
     width: 100%;
@@ -197,12 +209,17 @@ main {
 
 .dishes{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    max-width: 80rem; 
-    /* max-width: 1300px;  */
-    flex-wrap: wrap;       
     padding: 1.5rem;
+    max-width: 80rem; 
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 1.5rem;       */
 }
 
 /* Dish Card Info */
@@ -210,27 +227,34 @@ main {
     display: flex;    
     flex-direction: column;
     justify-items: flex-start;
-    width: 100%;
-    max-width: 355px;   
-    max-height: 420px;         
+
+    /* max-width: 355px;   
+    max-height: 420px;          */
+    height: auto;
+    max-height: 23rem; 
+    
+    width: 100%;    
+    max-width: 25rem;   
+  
+    /* width: 25rem;
+    flex: 0 0 auto;           */
+    /* flex: 0 0 25rem;     */
+    
     padding: 0.1rem;
     border: 0.5px solid rgb(236, 224, 203);
     background-color: rgb(252, 250, 248);
     color: rgb(133, 90, 12);
     border-radius: 20px;
     transition: transform 0.3s;
-    flex-wrap: wrap;
-}
-@media (max-width: 700px) {
-    .projects {
-        flex-direction: column;   
-        align-items: center;
-    }
+    /* flex-wrap: wrap; */
+    flex-shrink: 0;
 
-    .card {
-        width: 90%;   
-    }
-} 
+    /*Responsive */
+    flex: 1 1 280px;   /* key for responsiveness */
+    max-width: 25rem;
+    width: 100%;    
+}
+
 .dishCard:hover {
     transform: scale(1.05);
     border: 1px solid rgb(133, 90, 12);
@@ -257,7 +281,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 .dishTitle {
     display: flex;
@@ -282,7 +306,8 @@ main {
 .dishDesc {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    /* font-size: 1em; */
+    font-size: 1rem;
     line-height: 1.5;
     color: rgb(104, 68, 3);
 }        
@@ -296,7 +321,7 @@ main {
     /* font-size: 11px; */
     font-size: 0.7rem;
     gap: 20px;
-    width: fit-content;
+    width: 22rem;
 }      
 
 .dishBadge{
@@ -309,8 +334,9 @@ main {
     gap: 50px;
     padding: 32px;
     width: fit-content;
-    min-width: 450;
-    width: 100%;
+    /* min-width: 450;
+    width: 100%; */
+    min-width: 20rem;
     border-radius: 20px;
 }    
 /* .prepBadge  */
@@ -369,19 +395,23 @@ main {
     background-color: white;
     gap: 10px;
     padding: 30px;
-    width: 100%;
-    min-width: 420;
+    /* width: 100%; */
+    /* min-width: 420px; */
+    min-width: 20rem;
     border-radius: 20px;    
 }
 
 .instructList{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     list-style-type: decimal;
     gap: 20px;
-    width: 100%;
-    min-width: 420;
-    padding: 30px;
+    /* width: 100%; */
+    /* min-width: 420px; */
+    /* padding: 30px; */
+    /* padding: auto; */
+    min-width: 22rem;
     border: 1px solid rgb(233, 210, 168);
     border-radius: 20px;        
 }
@@ -401,9 +431,11 @@ main {
     background-color: rgb(248, 227, 217);
     color: rgb(145, 113, 53);
     border: 1px solid rgb(145, 113, 53);
-    width: 100%;
-    min-width: 420;    
-    padding: 30px;
+    /* width: 100%; */
+    /* min-width: 420px;     */
+    min-width: 22rem;
+    /* padding: 30px; */
+    padding: 26px;
     
     border-radius: 20px;        
 }
@@ -411,9 +443,15 @@ main {
 .myDishRecipe{
     display: flex;
     align-items: normal;    
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    background-color: #e1d5c8;
     margin-top:0;
     gap: 40px;
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+
     /* overflow:hidden; */
 }
 
@@ -421,12 +459,14 @@ main {
     justify-content: center;
     border-radius: 15px 15px 0 0;
     margin: 0;
-    padding: 0px;
+    /* padding: 0px; */
 }
 
 .myDishImg img {
-    width: 400px;
-    height: 400px;    
+    /* width: 400px;
+    height: 400px;     */
+    width: 24rem;
+    height: 24rem;    
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgb(117, 117, 116);    
     object-fit: cover;
@@ -437,10 +477,225 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    /* width: 400px;
+    gap: 20px; */
+    width: 24rem;
     gap: 20px;
         
     /* overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none;     */
+}
+
+.contactUs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #e1d5c8;
+    max-width: auto ;
+    width: 100%;
+    gap:30px;
+    padding: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: fit-content;
+    /* min-width: 420px; */
+    min-width: 26rem;
+    border-radius: 20px;  
+    padding:20px;   
+    gap: 10px;
+    box-shadow: 1px 1px 5px rgb(126 84 7);         
+}
+
+.contactForm input{
+    /* background-color: rgb(223, 213, 193); */
+    background-color: #dbd1c6;
+    border: 0.2px solid #c9a886;    
+    padding: 15px;
+    border-radius: 15px;
+}
+.contactForm input:focus{
+    cursor:cell;
+    outline: none;
+    border: 1px solid rgb(133, 90, 12);
+}
+.contactForm input:hover{
+    cursor: text;
+}
+
+.contactForm textarea{
+    /* background-color: rgb(223, 213, 193); */
+    background-color: #dbd1c6;
+    border: 0.2px solid #c9a886;    
+    padding: 15px;
+    /* min-width: 600px; */
+    min-height: 100px;
+    border-radius: 15px;
+}
+.contactForm textarea:focus{
+    /* cursor:text; */
+    outline: none;
+    border: 1px solid rgb(133, 90, 12);
+}
+.contactForm textarea:hover{
+    cursor: text;
+}
+
+.submitBtn button{
+    /* background-color: rgb(202, 193, 176); */
+    background-color: orange;
+    color: white;
+    border:none;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+    font-size: 1rem;
+}
+.submitBtn button:focus{
+    outline: none;
+    border: 1px solid rgb(133, 90, 12);
+}
+.submitBtn button:hover{
+    cursor: pointer;
+}
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 420px; */
+    width: 100%;
+    max-width: 26rem;
+    gap: 35px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    background-color: #dbd1c6;
+    border: 0.2px solid #c9a886;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    /* min-width: 420px; */
+    min-width: 26rem;
+    border-radius: 20px;        
+}
+
+.talkTo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    /* min-width: 420px; */
+    min-width: 26rem;
+    border-radius: 20px;        
+}
+
+.thankYou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    /* min-width: 420px; */
+    min-width: 26rem;
+    border-radius: 20px;        
+}
+
+@media (max-width: 800px) {
+    header .right ul{
+        flex-direction: column;
+    }    
+    header .left h1{
+        font-size: 1rem;
+    }
+    header span {
+        font-size: 0.5rem;
+    }
+
+    .dishCard {
+        flex: 1 1 45%;
+    }
+
+    header .contactBtn {
+        padding: 0.15rem;
+        border-radius: 10px;
+        font-size: 0.47rem;
+    }    
+
+    .inputSearch {
+        /* width: 80%; */
+        width: 100%;
+        max-width: 35rem;        
+    }
+    .myDishRecipe{
+        flex-direction: column;
+        justify-content: center;
+    }    
+
+    .recipe .dishType{
+        align-items: flex-end;
+    }
+    .recipe {
+        align-items: center;
+    }
+    .recipeTitle {
+        align-items: center;
+        justify-content: center;
+    }
+    .recipeDesc {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .dishCard {
+        flex: 1 1 100%;
+        max-width: 90%;
+    }
+
+    .inputSearch {
+
+        width: 100%;
+        max-width: 35rem;
+        font-size: 1rem;
+    }
+
+    .galTitle {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .galDesc {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .middleSec .galTitle {
+        align-items: center;
+        justify-content: center;        
+        padding: 1rem;
+    }
+
+    .footer-top{
+        flex-direction: column;
+    }
+    .footer-top .right{
+        margin : 0.5% 0.5% 0.5% 20%;   
+    }
 }
