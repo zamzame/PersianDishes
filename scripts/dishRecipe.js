@@ -2,8 +2,11 @@ import { loadHTML } from "./load.js";
 
 import { loadLocationAndTime } from "../components/header.js";
 
-loadHTML("header", "../components/header.html");
-loadHTML("footer", "../components/footer.html");
+//To resolve GitHub deployed link
+// loadHTML("header", "../components/header.html");
+// loadHTML("footer", "../components/footer.html");
+loadHTML("header", "/components/header.html");
+loadHTML("footer", "/components/footer.html");
 
 setTimeout(() => {
   loadLocationAndTime();

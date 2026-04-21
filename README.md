@@ -34,9 +34,11 @@ It is especially useful for users who prefer a clean, organized, and easy-to-nav
 
 🐞 Make a card clickable                => using click event and encodeURIComponent                              
 🐞 Pass a parameter to the next page    => using encodeURIComponent() and URLSearchParams(window.location.search)
-🐞 GitHub deployment bug                =>
-🐞 Search bar filtering display bug     =>
+🐞 GitHub deployment bug                => I think handle it. I should push and deploy it to see the result
+    Still insist, should be for the path 
+    in header and footer
+🐞 Search bar filtering display bug     => I handled it by css modification
     (just for some single result)
-🐞 Scrolling only in one column         =>
+🐞 Scrolling only in one column         => Not yet
     (both of them in one section)
 
