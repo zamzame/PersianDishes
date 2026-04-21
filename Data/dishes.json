@@ -29,35 +29,34 @@
             "time": "2.5 hours",
             "region": "Iran"
         },
-        {
-            "name": "Chelow",
-            "description": "A fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
-            "type": "Rice",
+{
+            "name": "Kotlet",
+            "description": "A crispy, golden fried patties made from minced meat, potatoes, and spices, commonly served as a quick and delicious Persian street-style meal.",
+            "type": "Omelet",
             "serving": "4",
-            "photo": "images/chelow.png",
-            "alt": "A dish of Chelow, traditional Persian steamed rice with tahdig",
+            "photo": "images/kotlet.png",
+            "alt": "A plate of Kotlet, crispy fried patties made from minced meat and potatoes",
             "ingredients": [
-                {"value": "3 cups Persian rice"},
-                {"value": "6 cups Water"},
-                {"value": "2 tbsp Salt"},
-                {"value": "3 tbsp Oil or Butter"},
-                {"value": "a pinch of Saffron (optional)"},
-                {"value": "1 potato or flatbread (for tahdig)"}
+                {"value": "500g Minced meat"},
+                {"value": "2 medium Potatoes"},
+                {"value": "1 large Onions"},
+                {"value": "2 cloves Garlic"},
+                {"value": "Cumin to taste"},
+                {"value": "Coriander to taste"},
+                {"value": "Paprika to taste"},                                
+                {"value": "Oil as required for frying"}
             ],
             "instructions": [
-                {"value": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
-                {"value": "Soak the rice in salted water for at least 30 minutes, then drain."},
-                {"value": "Bring a large pot of water to a boil, add salt, and cook the rice for about 5-7 minutes until it's partially cooked (al dente)."},
-                {"value": "Drain the rice and rinse with cold water to stop the cooking process."},
-                {"value": "In a non-stick pot, heat oil or butter over medium heat. Add a layer of parboiled rice, then add a layer of potato slices or flatbread for tahdig."},
-                {"value": "Continue layering the remaining rice on top."},
-                {"value": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
-                {"value": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the tahdig is crispy and golden."},
-                {"value": "Serve the chelow with your choice of stew or grilled meat."}
+                {"value": "Boil the potatoes until tender, then mash them and let them cool."},
+                {"value": "In a large bowl, combine the minced meat, mashed potatoes, finely chopped onions, minced garlic, cumin, coriander, paprika, salt, and pepper. Mix well until all ingredients are evenly incorporated."},
+                {"value": "Shape the mixture into oval or round patties."},
+                {"value": "Heat oil in a frying pan over medium heat. Fry the patties in batches until they are golden brown and cooked through on both sides."},
+                {"value": "Drain the fried kotlet on paper towels to remove excess oil."},
+                {"value": "Serve hot with bread, fresh herbs, or a side of yogurt."}
             ],
-            "preparationTime": "10 min",
-            "cookingTime": "45 min",            
-            "time": "55 min",
+            "preparationTime": "20 min",
+            "cookingTime": "25 min",            
+            "time": "45 min",
             "region": "Iran"
         },
         {
@@ -213,33 +212,34 @@
             "region": "Iran"
         },
         {
-            "name": "Kotlet",
-            "description": "A crispy, golden fried patties made from minced meat, potatoes, and spices, commonly served as a quick and delicious Persian street-style meal.",
-            "type": "Omelet",
+            "name": "Chelow",
+            "description": "A fluffy Persian-style white rice with separated grains, often served with a crispy golden crust called tahdig.",
+            "type": "Rice",
             "serving": "4",
-            "photo": "images/kotlet.png",
-            "alt": "A plate of Kotlet, crispy fried patties made from minced meat and potatoes",
+            "photo": "images/chelow.png",
+            "alt": "A dish of Chelow, traditional Persian steamed rice with tahdig",
             "ingredients": [
-                {"value": "500g Minced meat"},
-                {"value": "2 medium Potatoes"},
-                {"value": "1 large Onions"},
-                {"value": "2 cloves Garlic"},
-                {"value": "Cumin to taste"},
-                {"value": "Coriander to taste"},
-                {"value": "Paprika to taste"},                                
-                {"value": "Oil as required for frying"}
+                {"value": "3 cups Persian rice"},
+                {"value": "6 cups Water"},
+                {"value": "2 tbsp Salt"},
+                {"value": "3 tbsp Oil or Butter"},
+                {"value": "a pinch of Saffron (optional)"},
+                {"value": "1 potato or flatbread (for tahdig)"}
             ],
             "instructions": [
-                {"value": "Boil the potatoes until tender, then mash them and let them cool."},
-                {"value": "In a large bowl, combine the minced meat, mashed potatoes, finely chopped onions, minced garlic, cumin, coriander, paprika, salt, and pepper. Mix well until all ingredients are evenly incorporated."},
-                {"value": "Shape the mixture into oval or round patties."},
-                {"value": "Heat oil in a frying pan over medium heat. Fry the patties in batches until they are golden brown and cooked through on both sides."},
-                {"value": "Drain the fried kotlet on paper towels to remove excess oil."},
-                {"value": "Serve hot with bread, fresh herbs, or a side of yogurt."}
+                {"value": "Rinse the rice under cold water until the water runs clear to remove excess starch."},
+                {"value": "Soak the rice in salted water for at least 30 minutes, then drain."},
+                {"value": "Bring a large pot of water to a boil, add salt, and cook the rice for about 5-7 minutes until it's partially cooked (al dente)."},
+                {"value": "Drain the rice and rinse with cold water to stop the cooking process."},
+                {"value": "In a non-stick pot, heat oil or butter over medium heat. Add a layer of parboiled rice, then add a layer of potato slices or flatbread for tahdig."},
+                {"value": "Continue layering the remaining rice on top."},
+                {"value": "Cover the pot with a clean kitchen towel and place the lid on top to trap steam."},
+                {"value": "Cook on low heat for about 30-40 minutes until the rice is fully cooked and the tahdig is crispy and golden."},
+                {"value": "Serve the chelow with your choice of stew or grilled meat."}
             ],
-            "preparationTime": "20 min",
-            "cookingTime": "25 min",            
-            "time": "45 min",
+            "preparationTime": "10 min",
+            "cookingTime": "45 min",            
+            "time": "55 min",
             "region": "Iran"
         },
         {
