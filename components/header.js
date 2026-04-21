@@ -58,7 +58,7 @@ export function loadLocationAndTime() {
 
     .catch(() => {
       if (location !== undefined || location !== "" || location !== null) {
-          document.querySelector(".current-location").textContent = `📍` + "Location unavailable";
+          document.querySelector(".current-location").textContent = "📍" + "Location unavailable";
       }      
       
     });

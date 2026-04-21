@@ -1,4 +1,6 @@
-import { loadHTML } from "./load.js";
+// import { loadHTML } from "./load.js";
+import { loadHTML } from "../scripts/load.js";
+
 
 import { loadLocationAndTime } from "../components/header.js";
 

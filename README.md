@@ -32,13 +32,18 @@ It is especially useful for users who prefer a clean, organized, and easy-to-nav
 
                                             🔷 Challenges and Solutions 🔷 
 
-🐞 Make a card clickable                => using click event and encodeURIComponent                              
-🐞 Pass a parameter to the next page    => using encodeURIComponent() and URLSearchParams(window.location.search)
-🐞 GitHub deployment bug                => I think handle it. I should push and deploy it to see the result. 
-    Still insist, should be for the path    It hasn't been resolved yet. I recoverd it for now.
-    in header and footer
-🐞 Search bar filtering display bug     => I handled it by css modification
-    (just for some single result)
-🐞 Scrolling only in one column         => Not yet
-    (both of them in one section)
+🐞 Make a card clickable                                            
+    => using click event and encodeURIComponent                              
+🐞 Pass a parameter to the next page  
+    => using encodeURIComponent() and URLSearchParams(window.location.search)                              
+
+🐞 GitHub deployment bug      
+    => I think handle it. I should push and deploy it to see the result.                                       
+        🔹Still persist, should be for the path in header and footer
+            => It hasn't been resolved yet. I recoverd it for now.                          
+    
+🐞 Search bar filtering display bug (just for some single result)                                
+    => I handled it by css modification
+🐞 Scrolling only in one column (both of them in one section)in ContactUs page                                 
+    => Not yet
 
