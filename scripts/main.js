@@ -17,7 +17,8 @@ let myGalleries = [];
 
 // export let mySelectedDish;
 
-fetch("https://zamzame.github.io/PersianDishes/Data/dishes.json")
+// fetch("https://zamzame.github.io/PersianDishes/Data/dishes.json")
+fetch("../Data/dishes.json")
   .then(res => res.json())
   .then(galleries => {
     myGalleries = galleries;
@@ -37,7 +38,8 @@ function displayDishGalleries(myGalleries) {
 
     dishCard.addEventListener("click", () => {
       const name = encodeURIComponent(gallery.name);
-      window.location.href = `pages/dishRecipe.html?name=${name}`;
+      // window.location.href = `pages/dishRecipe.html?name=${name}`;
+      window.location.href = `../pages/dishRecipe.html?name=${name}`;      
     });
    
     const dishImg = document.createElement("figure");
@@ -46,7 +48,7 @@ function displayDishGalleries(myGalleries) {
     dishCard.appendChild(dishImg);
  
     const imgSrc = document.createElement("img");
-    imgSrc.src = gallery.photo;
+    imgSrc.src = "../"+ gallery.photo;
     imgSrc.alt = gallery.alt;
     imgSrc.loading = "lazy";
     dishImg.appendChild(imgSrc);
