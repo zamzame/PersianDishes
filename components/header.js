@@ -51,14 +51,14 @@ export function loadLocationAndTime() {
         })
         .catch(() => {
           if (time===undefined || time === "" || time === null ) {
-              document.querySelector(".current-time").textContent = "🕑"+ "--:--:--";
+              document.querySelector(".current-time")?.textContent = "🕑"+ "--:--:--";
           }
         });      
     })        
 
     .catch(() => {
       if (location !== undefined || location !== "" || location !== null) {
-          document.querySelector(".current-location").textContent = "📍" + "Location unavailable";
+          document.querySelector(".current-location")?.textContent = "📍" + "Location unavailable";
       }      
       
     });
