@@ -148,7 +148,7 @@ main {
 
 .galTitle{
     align-items: center;
-    color: grey;
+    color: rgb(116, 91, 91);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 2.5rem;  
@@ -545,7 +545,6 @@ main {
 }
 
 .submitBtn button{
-    /* background-color: rgb(202, 193, 176); */
     background-color: orange;
     color: white;
     border:none;
@@ -561,13 +560,7 @@ main {
 .submitBtn button:hover{
     cursor: pointer;
 }
-    /* justify-content: center;
-    background-color: white;
-    width: fit-content;
-    min-width: 26rem;
-    border-radius: 20px;  
-    padding:20px;   
-    gap: 0.5px; */
+
 .contactInfo {
     display: flex;
     flex-direction: column;
@@ -576,7 +569,7 @@ main {
     padding: 20px;
     width: 100%;
     max-width: 26rem;
-    gap: 15px;
+    gap: 30px;
 }
 
 .infos {
@@ -589,6 +582,7 @@ main {
     gap: 10px;
     padding: 20px;
     width: 100%;
+    width: 90%;    
     /* min-width: 420px; */
     min-width: 23rem;
     border-radius: 20px;        
@@ -601,7 +595,9 @@ main {
     background-color: white;
     gap: 10px;
     padding: 20px;
-    width: 100%;
+    padding: 40px 20px 40px 20px;
+    /* width: 100%; */
+    width: 90%;    
     /* min-width: 420px; */
     min-width: 23rem;
     border-radius: 20px;        
@@ -614,8 +610,10 @@ main {
     align-items: center;
     background-color: white;
     gap: 10px;
-    padding: 20px;
-    width: 100%;
+    padding: 40px 20px 40px 20px;
+    
+    /* width: 100%; */
+    width: 90%;
     /* min-width: 420px; */
     min-width: 23rem;
     border-radius: 20px;        
@@ -648,14 +646,8 @@ main {
         max-width: 35rem;        
     }
     .notFoundMsg {
-        /* width: 100%; */
-        /* justify-content: center; */
         align-items: center;
-        /* min-width: fit-content; */
         min-width: 15rem;
-        /* flex-wrap: nowrap; */
-        /* max-width: 30rem;   
-        padding: 15rem; */
     }    
     .myDishRecipe{
         flex-direction: column;
