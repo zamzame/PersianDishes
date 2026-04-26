@@ -1,4 +1,4 @@
-<!-- dishRecipe.html -->
+<!-- dishRecipe.html   -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-    <header id="header"></header>
+    <!-- <header id="header"></header> -->
+    <header>
+    <nav>
+        <section class="left">
+            <img src="../images/chef-hat.png" alt="chef hat logo" class="chef-logo">      
+            <!-- <img src="/images/chef-hat.png" alt="chef hat logo" class="chef-logo"> -->
+            <h1>Persian Kitchen</h1>
+        </section>
+        <section class="right">
+        <span class="current-time"></span>
+        <span class="current-location"></span>
+        <!-- <ul>
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="pages/contactUs.html" class="contactBtn">Contact Us</a></li>
+        </ul>       -->
+        <ul>
+            <li><a href="../index.html" class="home">Home</a></li>
+            <li><a href="../pages/contactUs.html" class="contactBtn">Contact Us</a></li>
+        </ul>
+        </section>
+    </nav>
+    <!-- <script type="module" src="../scripts/header.js"></script> -->
+    </header>     
     <main>
         <section class="myDishRecipe">
             <!-- <section class="myDishImg">
@@ -71,6 +93,21 @@
             
         </section> 
     </main> 
-    <footer id="footer"></footer>
+    <footer id="footer">
+        <section class="footer-top">
+            <section class="left">
+                <h4>Persian Kitchen</h4>
+                <p>Discover the rich and diverse flavors of Persian cuisine with our collection of traditional recipes.</p>
+            </section> 
+            <section class="right">
+                <p> Contact Us</p>        
+                <p>About Me</p>
+            </section>
+        </section>   
+
+        <section class="footer-bottom">
+            <p> Made with ❤️ for Persian cuisine lovers</p>
+        </section>        
+    </footer>
     <script type="module" src="../scripts/dishRecipe.js"></script>
 </body>                             
