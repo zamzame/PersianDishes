@@ -40,7 +40,9 @@ It is especially useful for users who prefer a clean, organized, and easy-to-nav
 🐞 GitHub deployment bug      
     => I think handle it. I should push and deploy it to see the result.                                       
         🔹Still persist, should be for the path in header and footer
-            => It hasn't been resolved yet. I recoverd it for now.                          
+            => It hasn't been resolved yet. I recoverd it for now.  
+        It resolved: I refactored the structure by using fixed header and footer instead of the dynamic one.
+        So, I handled the path based on the page.
     
 🐞 Search bar filtering display bug (just for some single result)                                
     => I handled it by css modification
