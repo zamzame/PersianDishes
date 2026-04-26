@@ -203,7 +203,6 @@ main {
 .notFoundMsg {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     color: gray;
     font-style: italic;
     width: 100%;
@@ -648,6 +647,16 @@ main {
         width: 100%;
         max-width: 35rem;        
     }
+    .notFoundMsg {
+        /* width: 100%; */
+        /* justify-content: center; */
+        align-items: center;
+        /* min-width: fit-content; */
+        min-width: 15rem;
+        /* flex-wrap: nowrap; */
+        /* max-width: 30rem;   
+        padding: 15rem; */
+    }    
     .myDishRecipe{
         flex-direction: column;
         justify-content: center;
